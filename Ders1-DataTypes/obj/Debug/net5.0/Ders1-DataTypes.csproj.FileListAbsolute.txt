@@ -1,0 +1,16 @@
+C:\Users\Barış\source\repos\Ders1-DataTypes\Ders1-DataTypes\bin\Debug\net5.0\Ders1-DataTypes.exe
+C:\Users\Barış\source\repos\Ders1-DataTypes\Ders1-DataTypes\bin\Debug\net5.0\Ders1-DataTypes.deps.json
+C:\Users\Barış\source\repos\Ders1-DataTypes\Ders1-DataTypes\bin\Debug\net5.0\Ders1-DataTypes.runtimeconfig.json
+C:\Users\Barış\source\repos\Ders1-DataTypes\Ders1-DataTypes\bin\Debug\net5.0\Ders1-DataTypes.runtimeconfig.dev.json
+C:\Users\Barış\source\repos\Ders1-DataTypes\Ders1-DataTypes\bin\Debug\net5.0\Ders1-DataTypes.dll
+C:\Users\Barış\source\repos\Ders1-DataTypes\Ders1-DataTypes\bin\Debug\net5.0\ref\Ders1-DataTypes.dll
+C:\Users\Barış\source\repos\Ders1-DataTypes\Ders1-DataTypes\bin\Debug\net5.0\Ders1-DataTypes.pdb
+C:\Users\Barış\source\repos\Ders1-DataTypes\Ders1-DataTypes\obj\Debug\net5.0\Ders1-DataTypes.csproj.AssemblyReference.cache
+C:\Users\Barış\source\repos\Ders1-DataTypes\Ders1-DataTypes\obj\Debug\net5.0\Ders1-DataTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barış\source\repos\Ders1-DataTypes\Ders1-DataTypes\obj\Debug\net5.0\Ders1-DataTypes.AssemblyInfoInputs.cache
+C:\Users\Barış\source\repos\Ders1-DataTypes\Ders1-DataTypes\obj\Debug\net5.0\Ders1-DataTypes.AssemblyInfo.cs
+C:\Users\Barış\source\repos\Ders1-DataTypes\Ders1-DataTypes\obj\Debug\net5.0\Ders1-DataTypes.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\Ders1-DataTypes\Ders1-DataTypes\obj\Debug\net5.0\Ders1-DataTypes.dll
+C:\Users\Barış\source\repos\Ders1-DataTypes\Ders1-DataTypes\obj\Debug\net5.0\ref\Ders1-DataTypes.dll
+C:\Users\Barış\source\repos\Ders1-DataTypes\Ders1-DataTypes\obj\Debug\net5.0\Ders1-DataTypes.pdb
+C:\Users\Barış\source\repos\Ders1-DataTypes\Ders1-DataTypes\obj\Debug\net5.0\Ders1-DataTypes.genruntimeconfig.cache
