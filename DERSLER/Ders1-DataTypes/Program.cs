@@ -74,10 +74,14 @@ namespace Ders1_DataTypes
             String referansTip = "Bu değişken String sınıfından türetilmiştir.";
             string degerTip = "Bu değişken String sınıfından türetilmiş string değer veri tipindedir.";
 
-
             Console.WriteLine(referansTip.GetType());
             Console.WriteLine(degerTip.GetTypeCode());
-            Console.ReadKey();
+
+            //var ilk atanan değerin tipinde veri bekler. Dolayısıyla farklı tipte veriler tutamaz. 
+            // Program derlendiğinde içinde hangi veri var ise o tipe dönüşür.
+            //var adres = "Kadıköy";
+            //adres = 12; // Hata alınır
+            //Console.ReadKey();
 
 
         }
