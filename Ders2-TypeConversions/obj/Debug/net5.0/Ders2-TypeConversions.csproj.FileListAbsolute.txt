@@ -1,0 +1,16 @@
+C:\Users\Barış\source\repos\DERSLER\Ders2-TypeConversions\bin\Debug\net5.0\Ders2-TypeConversions.exe
+C:\Users\Barış\source\repos\DERSLER\Ders2-TypeConversions\bin\Debug\net5.0\Ders2-TypeConversions.deps.json
+C:\Users\Barış\source\repos\DERSLER\Ders2-TypeConversions\bin\Debug\net5.0\Ders2-TypeConversions.runtimeconfig.json
+C:\Users\Barış\source\repos\DERSLER\Ders2-TypeConversions\bin\Debug\net5.0\Ders2-TypeConversions.runtimeconfig.dev.json
+C:\Users\Barış\source\repos\DERSLER\Ders2-TypeConversions\bin\Debug\net5.0\Ders2-TypeConversions.dll
+C:\Users\Barış\source\repos\DERSLER\Ders2-TypeConversions\bin\Debug\net5.0\ref\Ders2-TypeConversions.dll
+C:\Users\Barış\source\repos\DERSLER\Ders2-TypeConversions\bin\Debug\net5.0\Ders2-TypeConversions.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders2-TypeConversions\obj\Debug\net5.0\Ders2-TypeConversions.csproj.AssemblyReference.cache
+C:\Users\Barış\source\repos\DERSLER\Ders2-TypeConversions\obj\Debug\net5.0\Ders2-TypeConversions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barış\source\repos\DERSLER\Ders2-TypeConversions\obj\Debug\net5.0\Ders2-TypeConversions.AssemblyInfoInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders2-TypeConversions\obj\Debug\net5.0\Ders2-TypeConversions.AssemblyInfo.cs
+C:\Users\Barış\source\repos\DERSLER\Ders2-TypeConversions\obj\Debug\net5.0\Ders2-TypeConversions.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders2-TypeConversions\obj\Debug\net5.0\Ders2-TypeConversions.dll
+C:\Users\Barış\source\repos\DERSLER\Ders2-TypeConversions\obj\Debug\net5.0\ref\Ders2-TypeConversions.dll
+C:\Users\Barış\source\repos\DERSLER\Ders2-TypeConversions\obj\Debug\net5.0\Ders2-TypeConversions.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders2-TypeConversions\obj\Debug\net5.0\Ders2-TypeConversions.genruntimeconfig.cache
