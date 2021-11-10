@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Barış\\source\\repos\\Ders1-DataTypes\\Ders1-DataTypes\\Ders1-DataTypes.csproj",
+      "projectUniqueName": "C:\\Users\\Barış\\Desktop\\NBUY\\Notlar\\DERSLER\\Ders1-DataTypes\\Ders1-DataTypes.csproj",
       "projectName": "Ders1-DataTypes",
-      "projectPath": "C:\\Users\\Barış\\source\\repos\\Ders1-DataTypes\\Ders1-DataTypes\\Ders1-DataTypes.csproj",
+      "projectPath": "C:\\Users\\Barış\\Desktop\\NBUY\\Notlar\\DERSLER\\Ders1-DataTypes\\Ders1-DataTypes.csproj",
       "packagesPath": "C:\\Users\\Barış\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Barış\\source\\repos\\Ders1-DataTypes\\Ders1-DataTypes\\obj\\",
+      "outputPath": "C:\\Users\\Barış\\Desktop\\NBUY\\Notlar\\DERSLER\\Ders1-DataTypes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Barış\\AppData\\Roaming\\NuGet\\NuGet.Config",
