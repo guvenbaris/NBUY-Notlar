@@ -1,0 +1,16 @@
+C:\Users\Barış\source\repos\DERSLER\Ders4-Loops\bin\Debug\net5.0\Ders4-Loops.exe
+C:\Users\Barış\source\repos\DERSLER\Ders4-Loops\bin\Debug\net5.0\Ders4-Loops.deps.json
+C:\Users\Barış\source\repos\DERSLER\Ders4-Loops\bin\Debug\net5.0\Ders4-Loops.runtimeconfig.json
+C:\Users\Barış\source\repos\DERSLER\Ders4-Loops\bin\Debug\net5.0\Ders4-Loops.runtimeconfig.dev.json
+C:\Users\Barış\source\repos\DERSLER\Ders4-Loops\bin\Debug\net5.0\Ders4-Loops.dll
+C:\Users\Barış\source\repos\DERSLER\Ders4-Loops\bin\Debug\net5.0\ref\Ders4-Loops.dll
+C:\Users\Barış\source\repos\DERSLER\Ders4-Loops\bin\Debug\net5.0\Ders4-Loops.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders4-Loops\obj\Debug\net5.0\Ders4-Loops.csproj.AssemblyReference.cache
+C:\Users\Barış\source\repos\DERSLER\Ders4-Loops\obj\Debug\net5.0\Ders4-Loops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barış\source\repos\DERSLER\Ders4-Loops\obj\Debug\net5.0\Ders4-Loops.AssemblyInfoInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders4-Loops\obj\Debug\net5.0\Ders4-Loops.AssemblyInfo.cs
+C:\Users\Barış\source\repos\DERSLER\Ders4-Loops\obj\Debug\net5.0\Ders4-Loops.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders4-Loops\obj\Debug\net5.0\Ders4-Loops.dll
+C:\Users\Barış\source\repos\DERSLER\Ders4-Loops\obj\Debug\net5.0\ref\Ders4-Loops.dll
+C:\Users\Barış\source\repos\DERSLER\Ders4-Loops\obj\Debug\net5.0\Ders4-Loops.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders4-Loops\obj\Debug\net5.0\Ders4-Loops.genruntimeconfig.cache
