@@ -1,0 +1,16 @@
+C:\Users\Barış\source\repos\DERSLER\Ders3-IF-ELSE\bin\Debug\net5.0\Ders3-IF-ELSE.exe
+C:\Users\Barış\source\repos\DERSLER\Ders3-IF-ELSE\bin\Debug\net5.0\Ders3-IF-ELSE.deps.json
+C:\Users\Barış\source\repos\DERSLER\Ders3-IF-ELSE\bin\Debug\net5.0\Ders3-IF-ELSE.runtimeconfig.json
+C:\Users\Barış\source\repos\DERSLER\Ders3-IF-ELSE\bin\Debug\net5.0\Ders3-IF-ELSE.runtimeconfig.dev.json
+C:\Users\Barış\source\repos\DERSLER\Ders3-IF-ELSE\bin\Debug\net5.0\Ders3-IF-ELSE.dll
+C:\Users\Barış\source\repos\DERSLER\Ders3-IF-ELSE\bin\Debug\net5.0\ref\Ders3-IF-ELSE.dll
+C:\Users\Barış\source\repos\DERSLER\Ders3-IF-ELSE\bin\Debug\net5.0\Ders3-IF-ELSE.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders3-IF-ELSE\obj\Debug\net5.0\Ders3-IF-ELSE.csproj.AssemblyReference.cache
+C:\Users\Barış\source\repos\DERSLER\Ders3-IF-ELSE\obj\Debug\net5.0\Ders3-IF-ELSE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barış\source\repos\DERSLER\Ders3-IF-ELSE\obj\Debug\net5.0\Ders3-IF-ELSE.AssemblyInfoInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders3-IF-ELSE\obj\Debug\net5.0\Ders3-IF-ELSE.AssemblyInfo.cs
+C:\Users\Barış\source\repos\DERSLER\Ders3-IF-ELSE\obj\Debug\net5.0\Ders3-IF-ELSE.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders3-IF-ELSE\obj\Debug\net5.0\Ders3-IF-ELSE.dll
+C:\Users\Barış\source\repos\DERSLER\Ders3-IF-ELSE\obj\Debug\net5.0\ref\Ders3-IF-ELSE.dll
+C:\Users\Barış\source\repos\DERSLER\Ders3-IF-ELSE\obj\Debug\net5.0\Ders3-IF-ELSE.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders3-IF-ELSE\obj\Debug\net5.0\Ders3-IF-ELSE.genruntimeconfig.cache
