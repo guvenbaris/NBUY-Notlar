@@ -134,7 +134,7 @@ namespace Ders4_Loops
 
             //string email ="network@akademi.net";
             //string parola = "nA123";
-            
+
             //string ep, pa;
             //do
             //{
@@ -183,25 +183,95 @@ namespace Ders4_Loops
             //    Console.WriteLine("İki sayıt eşit olduğu için işlem gerçekleştirelemez...");
             //}
 
-            int toplam = 0;
-            int result = 0;
-            for (int i = 0; i < 5; i++)
-            {
-                Console.Write("Ürün fiyatını giriniz : ");
-                int fiyat = Convert.ToInt32(Console.ReadLine());
-                toplam += fiyat;
-                result = (int)( toplam * 1.18);
-                Console.WriteLine("{0} kdvli fiyat {1}",fiyat,fiyat + (fiyat*0.18));
-            }
-            Console.WriteLine(result);
+            //int toplam = 0;
+            //int result = 0;
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    Console.Write("Ürün fiyatını giriniz : ");
+            //    int fiyat = Convert.ToInt32(Console.ReadLine());
+            //    toplam += fiyat;
+            //    result = (int)( toplam * 1.18);
+            //    Console.WriteLine("{0} kdvli fiyat {1}",fiyat,fiyat * 1.18);
+            //}
+            //Console.WriteLine(result);
 
+            //Döngü Ödevleri
 
+            //1-)
+            //Klavyeden çık değeri alınana kadar alınan negatif ve pozitif sayıları ayrı ayrı toplayıp program sonunda ekrana yazdıran programı yazınız.
+            //(34 ve - 34) değerleri gelirse işleme alınmadan sıradaki sayıyı istesin)
 
+            //int positiveSum = 0;
+            //int negativeSum = 0;
+            //while (true)
+            //{
+            //    Console.Write("Sayı giriniz : ");
+            //    string expression = Console.ReadLine();
 
+            //    bool isNumeric = int.TryParse(expression, out _);
 
+            //    if (isNumeric)
+            //    {
+            //        int sayi = Convert.ToInt32(expression);
 
+            //        if (sayi > 0)
+            //        {
+            //            if (sayi == 34)
+            //            {
+            //                continue;
+            //            }
+            //            positiveSum += sayi;
+            //        }
+            //        else if (sayi < 0)
+            //        {
+            //            if (sayi == -34)
+            //            {
+            //                continue;
+            //            }
+            //            negativeSum += sayi;
+            //        }
+            //    }
+            //    else
+            //    {
+            //        if (expression.ToLower() == "cik")
+            //        {
+            //            break;
+            //        }
+            //    }
+            //}
+            //Console.WriteLine("Positif sayılar toplamı : {0}",positiveSum);
+            //Console.WriteLine("Positif sayılar toplamı : {0}", negativeSum);
 
+            //2-)
+            //Klavyeden çık değeri alınana kadar girilen ifadeleri bir string değişkende alt alta birleştirip.
+            //Program sonlanırken string değişkeni ekrana yazdıran programı yazınız.
+            //string result = "";
+            //while (true)
+            //{
+            //    Console.Write("Please write text expression : ");
+            //    string text = Console.ReadLine();
+            //    if (text.ToLower() == "cik")
+            //    {
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        result = result + "\n" + text;
+            //    }
+            //}
+            //Console.WriteLine(result);
 
+            //3) 
+            //1 - 10 arasındaki sayıların faktöriyellerini hesaplayıp 
+            //tüm bu sayıların faktörüyellerini toplayıp toplamı ekrana yazdıran programı yazınız.
+            //int factorial = 0;
+            //int result = 1;
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    result *= i;
+            //    factorial += result;
+            //}
+            //Console.WriteLine("1-10 arasında ki sayıların faktöriyelleri toplamı :  {0}",factorial);
 
         }
     }
