@@ -1,0 +1,16 @@
+C:\Users\Barış\source\repos\DERSLER\Ders5-Arrays-Lists\bin\Debug\net5.0\Ders5-Arrays-Lists.exe
+C:\Users\Barış\source\repos\DERSLER\Ders5-Arrays-Lists\bin\Debug\net5.0\Ders5-Arrays-Lists.deps.json
+C:\Users\Barış\source\repos\DERSLER\Ders5-Arrays-Lists\bin\Debug\net5.0\Ders5-Arrays-Lists.runtimeconfig.json
+C:\Users\Barış\source\repos\DERSLER\Ders5-Arrays-Lists\bin\Debug\net5.0\Ders5-Arrays-Lists.runtimeconfig.dev.json
+C:\Users\Barış\source\repos\DERSLER\Ders5-Arrays-Lists\bin\Debug\net5.0\Ders5-Arrays-Lists.dll
+C:\Users\Barış\source\repos\DERSLER\Ders5-Arrays-Lists\bin\Debug\net5.0\ref\Ders5-Arrays-Lists.dll
+C:\Users\Barış\source\repos\DERSLER\Ders5-Arrays-Lists\bin\Debug\net5.0\Ders5-Arrays-Lists.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders5-Arrays-Lists\obj\Debug\net5.0\Ders5-Arrays-Lists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barış\source\repos\DERSLER\Ders5-Arrays-Lists\obj\Debug\net5.0\Ders5-Arrays-Lists.AssemblyInfoInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders5-Arrays-Lists\obj\Debug\net5.0\Ders5-Arrays-Lists.AssemblyInfo.cs
+C:\Users\Barış\source\repos\DERSLER\Ders5-Arrays-Lists\obj\Debug\net5.0\Ders5-Arrays-Lists.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders5-Arrays-Lists\obj\Debug\net5.0\Ders5-Arrays-Lists.dll
+C:\Users\Barış\source\repos\DERSLER\Ders5-Arrays-Lists\obj\Debug\net5.0\ref\Ders5-Arrays-Lists.dll
+C:\Users\Barış\source\repos\DERSLER\Ders5-Arrays-Lists\obj\Debug\net5.0\Ders5-Arrays-Lists.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders5-Arrays-Lists\obj\Debug\net5.0\Ders5-Arrays-Lists.genruntimeconfig.cache
+C:\Users\Barış\source\repos\DERSLER\Ders5-Arrays-Lists\obj\Debug\net5.0\Ders5-Arrays-Lists.csproj.AssemblyReference.cache

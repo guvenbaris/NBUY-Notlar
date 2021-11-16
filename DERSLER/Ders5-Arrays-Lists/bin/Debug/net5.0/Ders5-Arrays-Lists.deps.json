@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Ders5-Arrays-Lists/1.0.0": {
+        "runtime": {
+          "Ders5-Arrays-Lists.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ders5-Arrays-Lists/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
