@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
 using System.Threading.Channels;
 
 namespace Ders6_Methods
@@ -39,11 +40,20 @@ namespace Ders6_Methods
             //    Console.WriteLine(sayi);
             //}
 
-            Console.WriteLine(FindBigNumber(15, 25));
-            foreach (var number in TakeNumberFromUser())
-            {
-                Console.WriteLine(number);
-            }
+            //Console.WriteLine(FindBigNumber(15, 25));
+            //foreach (var number in TakeNumberFromUser())
+            //{
+            //    Console.WriteLine(number);
+            //}
+
+            //foreach (var sayi in SayıUretme(0, 100, 10))
+            //{
+            //    Console.WriteLine(sayi);
+            //}
+
+            List<string> kelimelerim = new List<string>() {"araba", "hızla", "yanımdan", "geçti"};
+            Console.WriteLine( StringConnection(kelimelerim));
+           
 
         }
 
@@ -221,6 +231,33 @@ namespace Ders6_Methods
 
             return sayilar;
         }
+
+        static List<int> SayıUretme(int enKucuk, int enBuyuk, int sayiAdedi)
+        {
+            Random random = new Random();
+            List<int> uretilenSayilar = new List<int>();
+            for (int i = 0; i < sayiAdedi; i++)
+            {
+                uretilenSayilar.Add(random.Next(enKucuk, enBuyuk));
+            }
+
+            return uretilenSayilar;
+        }
+
+        static string StringConnection(List<string> kelimeler)
+        {
+            string cumle = "";
+            foreach (var kelime in kelimeler)
+            {
+                cumle += kelime+" ";
+
+            }
+
+            return cumle;
+        }
+
+
+
 
 
     }
