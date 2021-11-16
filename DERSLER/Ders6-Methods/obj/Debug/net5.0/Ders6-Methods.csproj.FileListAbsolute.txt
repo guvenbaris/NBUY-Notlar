@@ -1,0 +1,16 @@
+C:\Users\Barış\source\repos\DERSLER\Ders6-Methods\bin\Debug\net5.0\Ders6-Methods.exe
+C:\Users\Barış\source\repos\DERSLER\Ders6-Methods\bin\Debug\net5.0\Ders6-Methods.deps.json
+C:\Users\Barış\source\repos\DERSLER\Ders6-Methods\bin\Debug\net5.0\Ders6-Methods.runtimeconfig.json
+C:\Users\Barış\source\repos\DERSLER\Ders6-Methods\bin\Debug\net5.0\Ders6-Methods.runtimeconfig.dev.json
+C:\Users\Barış\source\repos\DERSLER\Ders6-Methods\bin\Debug\net5.0\Ders6-Methods.dll
+C:\Users\Barış\source\repos\DERSLER\Ders6-Methods\bin\Debug\net5.0\ref\Ders6-Methods.dll
+C:\Users\Barış\source\repos\DERSLER\Ders6-Methods\bin\Debug\net5.0\Ders6-Methods.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders6-Methods\obj\Debug\net5.0\Ders6-Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barış\source\repos\DERSLER\Ders6-Methods\obj\Debug\net5.0\Ders6-Methods.AssemblyInfoInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders6-Methods\obj\Debug\net5.0\Ders6-Methods.AssemblyInfo.cs
+C:\Users\Barış\source\repos\DERSLER\Ders6-Methods\obj\Debug\net5.0\Ders6-Methods.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders6-Methods\obj\Debug\net5.0\Ders6-Methods.dll
+C:\Users\Barış\source\repos\DERSLER\Ders6-Methods\obj\Debug\net5.0\ref\Ders6-Methods.dll
+C:\Users\Barış\source\repos\DERSLER\Ders6-Methods\obj\Debug\net5.0\Ders6-Methods.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders6-Methods\obj\Debug\net5.0\Ders6-Methods.genruntimeconfig.cache
+C:\Users\Barış\source\repos\DERSLER\Ders6-Methods\obj\Debug\net5.0\Ders6-Methods.csproj.AssemblyReference.cache
