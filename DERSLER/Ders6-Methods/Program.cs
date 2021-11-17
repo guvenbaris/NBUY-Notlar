@@ -159,7 +159,6 @@ namespace Ders6_Methods
             {
                 Console.WriteLine(sayi);
             }
-           
         }
 
         static int[] TekSayilar(int[] sayilar)
