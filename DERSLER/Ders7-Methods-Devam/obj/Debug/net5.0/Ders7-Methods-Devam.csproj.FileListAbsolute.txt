@@ -1,0 +1,16 @@
+C:\Users\Barış\source\repos\DERSLER\Ders7-Methods-Devam\obj\Debug\net5.0\Ders7-Methods-Devam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barış\source\repos\DERSLER\Ders7-Methods-Devam\obj\Debug\net5.0\Ders7-Methods-Devam.AssemblyInfoInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders7-Methods-Devam\obj\Debug\net5.0\Ders7-Methods-Devam.AssemblyInfo.cs
+C:\Users\Barış\source\repos\DERSLER\Ders7-Methods-Devam\obj\Debug\net5.0\Ders7-Methods-Devam.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders7-Methods-Devam\bin\Debug\net5.0\Ders7-Methods-Devam.exe
+C:\Users\Barış\source\repos\DERSLER\Ders7-Methods-Devam\bin\Debug\net5.0\Ders7-Methods-Devam.deps.json
+C:\Users\Barış\source\repos\DERSLER\Ders7-Methods-Devam\bin\Debug\net5.0\Ders7-Methods-Devam.runtimeconfig.json
+C:\Users\Barış\source\repos\DERSLER\Ders7-Methods-Devam\bin\Debug\net5.0\Ders7-Methods-Devam.runtimeconfig.dev.json
+C:\Users\Barış\source\repos\DERSLER\Ders7-Methods-Devam\bin\Debug\net5.0\Ders7-Methods-Devam.dll
+C:\Users\Barış\source\repos\DERSLER\Ders7-Methods-Devam\bin\Debug\net5.0\ref\Ders7-Methods-Devam.dll
+C:\Users\Barış\source\repos\DERSLER\Ders7-Methods-Devam\bin\Debug\net5.0\Ders7-Methods-Devam.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders7-Methods-Devam\obj\Debug\net5.0\Ders7-Methods-Devam.dll
+C:\Users\Barış\source\repos\DERSLER\Ders7-Methods-Devam\obj\Debug\net5.0\ref\Ders7-Methods-Devam.dll
+C:\Users\Barış\source\repos\DERSLER\Ders7-Methods-Devam\obj\Debug\net5.0\Ders7-Methods-Devam.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders7-Methods-Devam\obj\Debug\net5.0\Ders7-Methods-Devam.genruntimeconfig.cache
+C:\Users\Barış\source\repos\DERSLER\Ders7-Methods-Devam\obj\Debug\net5.0\Ders7-Methods-Devam.csproj.AssemblyReference.cache
