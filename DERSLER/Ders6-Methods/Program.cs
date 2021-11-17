@@ -51,43 +51,38 @@ namespace Ders6_Methods
             //    Console.WriteLine(sayi);
             //}
 
-            List<string> kelimelerim = new List<string>() {"araba", "hızla", "yanımdan", "geçti"};
-            Console.WriteLine( StringConnection(kelimelerim));
-           
+            List<string> kelimelerim = new List<string>() { "araba", "hızla", "yanımdan", "geçti" };
+            Console.WriteLine(StringConnection(kelimelerim));
+
 
         }
-
         static void MerhabaDunya()
         {
             Console.WriteLine("Merhaba Dünya");
         }
-
-        static int Topla(int sayi1,int sayi2)
+        static int Topla(int sayi1, int sayi2)
         {
             return sayi1 + sayi2;
         }
-
         static void ShowOnTheScreen(string key)
         {
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine(key);   
+                Console.WriteLine(key);
             }
         }
-
         static int TakeSquare(int sayi)
         {
             return sayi * sayi;
         }
-
-        static double Kdv(double fiyat,string urunTipi)
+        static double Kdv(double fiyat, string urunTipi)
         {
             if (urunTipi.ToLower() == "gıda")
             {
                 return fiyat * 1.08;
             }
 
-            else if (urunTipi.ToLower() =="egitim")
+            else if (urunTipi.ToLower() == "egitim")
             {
                 return fiyat * 1.05;
             }
@@ -96,14 +91,12 @@ namespace Ders6_Methods
                 return fiyat * 1.18;
             }
         }
-
         static int SayiGir()
         {
             Console.Write("Sayi giriniz : ");
             int sayi = Convert.ToInt32(Console.ReadLine());
             return sayi;
         }
-
         static int Factorial(int number)
         {
             int result = 1;
@@ -124,7 +117,6 @@ namespace Ders6_Methods
 
             return result;
         }
-
         static bool CheckIfPrime(int sayi)
         {
             if (sayi == 2)
@@ -140,10 +132,9 @@ namespace Ders6_Methods
             }
             return true;
         }
-
         static int[] Random10()
         {
-            int[] sayiDizisi = new int[]{};
+            int[] sayiDizisi = new int[] { };
             Random random = new Random();
             for (int i = 0; i < 10; i++)
             {
@@ -152,7 +143,6 @@ namespace Ders6_Methods
 
             return sayiDizisi;
         }
-
         static void ArrayElements(int[] sayilar)
         {
             foreach (var sayi in sayilar)
@@ -175,8 +165,7 @@ namespace Ders6_Methods
             return tekSayilar;
 
         }
-
-        static int FindBigNumber(int sayi1,int sayi2)
+        static int FindBigNumber(int sayi1, int sayi2)
         {
             if (sayi1 > sayi2)
             {
@@ -191,32 +180,30 @@ namespace Ders6_Methods
                 return sayi1;
             }
         }
-        static int FindBigNumber3(int sayi1, int sayi2,int sayi3)
+        static int FindBigNumber3(int sayi1, int sayi2, int sayi3)
         {
-           int buyukSayi =  FindBigNumber(sayi1, sayi2);
-           if (buyukSayi > sayi3)
-           {
-               return buyukSayi;
-           }
-           else
-           {
-               return sayi3;
-           }
+            int buyukSayi = FindBigNumber(sayi1, sayi2);
+            if (buyukSayi > sayi3)
+            {
+                return buyukSayi;
+            }
+            else
+            {
+                return sayi3;
+            }
         }
-
         static List<int> TakeSquare(List<int> sayilar)
         {
             List<int> mySquares = new List<int>();
             int squaredSayi;
             foreach (var sayi in sayilar)
             {
-               squaredSayi =  (int)Math.Pow(sayi, 2);
-               mySquares.Add(squaredSayi);
+                squaredSayi = (int)Math.Pow(sayi, 2);
+                mySquares.Add(squaredSayi);
             }
 
             return mySquares;
         }
-
         static List<int> TakeNumberFromUser()
         {
             int sayi;
@@ -230,7 +217,6 @@ namespace Ders6_Methods
 
             return sayilar;
         }
-
         static List<int> SayıUretme(int enKucuk, int enBuyuk, int sayiAdedi)
         {
             Random random = new Random();
@@ -242,22 +228,15 @@ namespace Ders6_Methods
 
             return uretilenSayilar;
         }
-
         static string StringConnection(List<string> kelimeler)
         {
             string cumle = "";
             foreach (var kelime in kelimeler)
             {
-                cumle += kelime+" ";
+                cumle += kelime + " ";
 
             }
-
             return cumle;
         }
-
-
-
-
-
     }
 }

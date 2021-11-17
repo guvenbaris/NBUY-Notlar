@@ -28,8 +28,6 @@ namespace Ders7_Methods_Devam
             //}
             string deger = PersonelSearch(123456789);
             Console.WriteLine(deger);
-
-
         }
         static int DortIslem(int sayi1, int sayi2, string islem)
         {
@@ -87,13 +85,11 @@ namespace Ders7_Methods_Devam
             }
             return makeDoubles;
         }
-
         static string Yaz()
         {
             Console.Write("Birşeyler yaz : ");
             return Console.ReadLine();
         }
-
         static List<string> CokYaz(int tekrar)
         {
             List<string> myList = new List<string>();
@@ -197,6 +193,5 @@ namespace Ders7_Methods_Devam
             }
             return personel;
         }
-
     }
 }
