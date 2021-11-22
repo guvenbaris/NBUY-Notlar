@@ -1,0 +1,16 @@
+C:\Users\Barış\source\repos\DERSLER\Ders-9-Classes\bin\Debug\net5.0\Ders-9-Classes.exe
+C:\Users\Barış\source\repos\DERSLER\Ders-9-Classes\bin\Debug\net5.0\Ders-9-Classes.deps.json
+C:\Users\Barış\source\repos\DERSLER\Ders-9-Classes\bin\Debug\net5.0\Ders-9-Classes.runtimeconfig.json
+C:\Users\Barış\source\repos\DERSLER\Ders-9-Classes\bin\Debug\net5.0\Ders-9-Classes.runtimeconfig.dev.json
+C:\Users\Barış\source\repos\DERSLER\Ders-9-Classes\bin\Debug\net5.0\Ders-9-Classes.dll
+C:\Users\Barış\source\repos\DERSLER\Ders-9-Classes\bin\Debug\net5.0\ref\Ders-9-Classes.dll
+C:\Users\Barış\source\repos\DERSLER\Ders-9-Classes\bin\Debug\net5.0\Ders-9-Classes.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders-9-Classes\obj\Debug\net5.0\Ders-9-Classes.csproj.AssemblyReference.cache
+C:\Users\Barış\source\repos\DERSLER\Ders-9-Classes\obj\Debug\net5.0\Ders-9-Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barış\source\repos\DERSLER\Ders-9-Classes\obj\Debug\net5.0\Ders-9-Classes.AssemblyInfoInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders-9-Classes\obj\Debug\net5.0\Ders-9-Classes.AssemblyInfo.cs
+C:\Users\Barış\source\repos\DERSLER\Ders-9-Classes\obj\Debug\net5.0\Ders-9-Classes.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders-9-Classes\obj\Debug\net5.0\Ders-9-Classes.dll
+C:\Users\Barış\source\repos\DERSLER\Ders-9-Classes\obj\Debug\net5.0\ref\Ders-9-Classes.dll
+C:\Users\Barış\source\repos\DERSLER\Ders-9-Classes\obj\Debug\net5.0\Ders-9-Classes.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders-9-Classes\obj\Debug\net5.0\Ders-9-Classes.genruntimeconfig.cache

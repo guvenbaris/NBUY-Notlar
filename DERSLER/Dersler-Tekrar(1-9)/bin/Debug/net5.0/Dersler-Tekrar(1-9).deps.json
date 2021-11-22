@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Dersler-Tekrar(1-9)/1.0.0": {
+        "runtime": {
+          "Dersler-Tekrar(1-9).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dersler-Tekrar(1-9)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
