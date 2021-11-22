@@ -1,0 +1,16 @@
+C:\Users\Barış\source\repos\DERSLER\Ders10-Encapsulation\bin\Debug\net5.0\Ders10-Encapsulation.exe
+C:\Users\Barış\source\repos\DERSLER\Ders10-Encapsulation\bin\Debug\net5.0\Ders10-Encapsulation.deps.json
+C:\Users\Barış\source\repos\DERSLER\Ders10-Encapsulation\bin\Debug\net5.0\Ders10-Encapsulation.runtimeconfig.json
+C:\Users\Barış\source\repos\DERSLER\Ders10-Encapsulation\bin\Debug\net5.0\Ders10-Encapsulation.runtimeconfig.dev.json
+C:\Users\Barış\source\repos\DERSLER\Ders10-Encapsulation\bin\Debug\net5.0\Ders10-Encapsulation.dll
+C:\Users\Barış\source\repos\DERSLER\Ders10-Encapsulation\bin\Debug\net5.0\ref\Ders10-Encapsulation.dll
+C:\Users\Barış\source\repos\DERSLER\Ders10-Encapsulation\bin\Debug\net5.0\Ders10-Encapsulation.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders10-Encapsulation\obj\Debug\net5.0\Ders10-Encapsulation.csproj.AssemblyReference.cache
+C:\Users\Barış\source\repos\DERSLER\Ders10-Encapsulation\obj\Debug\net5.0\Ders10-Encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barış\source\repos\DERSLER\Ders10-Encapsulation\obj\Debug\net5.0\Ders10-Encapsulation.AssemblyInfoInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders10-Encapsulation\obj\Debug\net5.0\Ders10-Encapsulation.AssemblyInfo.cs
+C:\Users\Barış\source\repos\DERSLER\Ders10-Encapsulation\obj\Debug\net5.0\Ders10-Encapsulation.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders10-Encapsulation\obj\Debug\net5.0\Ders10-Encapsulation.dll
+C:\Users\Barış\source\repos\DERSLER\Ders10-Encapsulation\obj\Debug\net5.0\ref\Ders10-Encapsulation.dll
+C:\Users\Barış\source\repos\DERSLER\Ders10-Encapsulation\obj\Debug\net5.0\Ders10-Encapsulation.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders10-Encapsulation\obj\Debug\net5.0\Ders10-Encapsulation.genruntimeconfig.cache
