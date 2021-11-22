@@ -51,7 +51,16 @@ namespace Ders10_Encapsulation.Kuafor
        public void CiltBakimiYap()
        {
            alinanHizmetlers.Add(Hizmetler.Cilt_Bakim);
-           _toplamUcret += _ciltBakim;
+           _toplamUcret += _ciltBakimi;
+       }
+
+       public void BilgiYaz()
+       {
+           Console.WriteLine("Aşağıdaki hizmetleri alınmıştır ");
+           foreach (var hizmetler in this.alinanHizmetlers)
+           {
+               Console.WriteLine(hizmetler);
+           }
        }
     }
 }
