@@ -1,0 +1,16 @@
+C:\Users\Barış\source\repos\DERSLER\Ders11-OOP-Kalıtım\bin\Debug\net5.0\Ders11-OOP-Kalıtım.exe
+C:\Users\Barış\source\repos\DERSLER\Ders11-OOP-Kalıtım\bin\Debug\net5.0\Ders11-OOP-Kalıtım.deps.json
+C:\Users\Barış\source\repos\DERSLER\Ders11-OOP-Kalıtım\bin\Debug\net5.0\Ders11-OOP-Kalıtım.runtimeconfig.json
+C:\Users\Barış\source\repos\DERSLER\Ders11-OOP-Kalıtım\bin\Debug\net5.0\Ders11-OOP-Kalıtım.runtimeconfig.dev.json
+C:\Users\Barış\source\repos\DERSLER\Ders11-OOP-Kalıtım\bin\Debug\net5.0\Ders11-OOP-Kalıtım.dll
+C:\Users\Barış\source\repos\DERSLER\Ders11-OOP-Kalıtım\bin\Debug\net5.0\ref\Ders11-OOP-Kalıtım.dll
+C:\Users\Barış\source\repos\DERSLER\Ders11-OOP-Kalıtım\bin\Debug\net5.0\Ders11-OOP-Kalıtım.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders11-OOP-Kalıtım\obj\Debug\net5.0\Ders11-OOP-Kalıtım.csproj.AssemblyReference.cache
+C:\Users\Barış\source\repos\DERSLER\Ders11-OOP-Kalıtım\obj\Debug\net5.0\Ders11-OOP-Kalıtım.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barış\source\repos\DERSLER\Ders11-OOP-Kalıtım\obj\Debug\net5.0\Ders11-OOP-Kalıtım.AssemblyInfoInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders11-OOP-Kalıtım\obj\Debug\net5.0\Ders11-OOP-Kalıtım.AssemblyInfo.cs
+C:\Users\Barış\source\repos\DERSLER\Ders11-OOP-Kalıtım\obj\Debug\net5.0\Ders11-OOP-Kalıtım.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders11-OOP-Kalıtım\obj\Debug\net5.0\Ders11-OOP-Kalıtım.dll
+C:\Users\Barış\source\repos\DERSLER\Ders11-OOP-Kalıtım\obj\Debug\net5.0\ref\Ders11-OOP-Kalıtım.dll
+C:\Users\Barış\source\repos\DERSLER\Ders11-OOP-Kalıtım\obj\Debug\net5.0\Ders11-OOP-Kalıtım.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders11-OOP-Kalıtım\obj\Debug\net5.0\Ders11-OOP-Kalıtım.genruntimeconfig.cache
