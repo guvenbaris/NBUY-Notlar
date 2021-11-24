@@ -11,7 +11,7 @@ namespace Ders11_OOP_Kalıtım.Sahibinden
         public string EkranBoyutu { get; set; }
         public int Agirlik { get; set; }
 
-        public void BilgiYaz()
+        new public void BilgiYaz()
         {
             base.BilgiYaz();
             Console.WriteLine($"Marka : {base.Marka}, İşlemci : {base.Islemci}, Bellek : {base.Bellek}, HDD : {base.Hdd}, SSD : {base.Ssd}," +

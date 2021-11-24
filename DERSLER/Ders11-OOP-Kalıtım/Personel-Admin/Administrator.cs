@@ -19,7 +19,7 @@ namespace Ders11_OOP_Kalıtım.Personel
             
         }
 
-        public void BilgiYaz()
+       new public void BilgiYaz()
         {
             Console.WriteLine($"Alt Personel Sayisi : {AltPersonelSayisi}, Id : {Id}, Adı-Soyadı : {AdSoyad}, Bölüm : {_Bolum}, Yaş :{Yas}");
         }

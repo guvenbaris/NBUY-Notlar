@@ -1,0 +1,16 @@
+C:\Users\Barış\source\repos\DERSLER\Ders12-Polymorphism\bin\Debug\net5.0\Ders12-Polymorphism.exe
+C:\Users\Barış\source\repos\DERSLER\Ders12-Polymorphism\bin\Debug\net5.0\Ders12-Polymorphism.deps.json
+C:\Users\Barış\source\repos\DERSLER\Ders12-Polymorphism\bin\Debug\net5.0\Ders12-Polymorphism.runtimeconfig.json
+C:\Users\Barış\source\repos\DERSLER\Ders12-Polymorphism\bin\Debug\net5.0\Ders12-Polymorphism.runtimeconfig.dev.json
+C:\Users\Barış\source\repos\DERSLER\Ders12-Polymorphism\bin\Debug\net5.0\Ders12-Polymorphism.dll
+C:\Users\Barış\source\repos\DERSLER\Ders12-Polymorphism\bin\Debug\net5.0\ref\Ders12-Polymorphism.dll
+C:\Users\Barış\source\repos\DERSLER\Ders12-Polymorphism\bin\Debug\net5.0\Ders12-Polymorphism.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders12-Polymorphism\obj\Debug\net5.0\Ders12-Polymorphism.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barış\source\repos\DERSLER\Ders12-Polymorphism\obj\Debug\net5.0\Ders12-Polymorphism.AssemblyInfoInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders12-Polymorphism\obj\Debug\net5.0\Ders12-Polymorphism.AssemblyInfo.cs
+C:\Users\Barış\source\repos\DERSLER\Ders12-Polymorphism\obj\Debug\net5.0\Ders12-Polymorphism.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders12-Polymorphism\obj\Debug\net5.0\Ders12-Polymorphism.dll
+C:\Users\Barış\source\repos\DERSLER\Ders12-Polymorphism\obj\Debug\net5.0\ref\Ders12-Polymorphism.dll
+C:\Users\Barış\source\repos\DERSLER\Ders12-Polymorphism\obj\Debug\net5.0\Ders12-Polymorphism.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders12-Polymorphism\obj\Debug\net5.0\Ders12-Polymorphism.genruntimeconfig.cache
+C:\Users\Barış\source\repos\DERSLER\Ders12-Polymorphism\obj\Debug\net5.0\Ders12-Polymorphism.csproj.AssemblyReference.cache
