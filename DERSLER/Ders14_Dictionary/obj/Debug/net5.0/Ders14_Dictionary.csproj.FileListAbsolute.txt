@@ -1,0 +1,16 @@
+C:\Users\Barış\source\repos\DERSLER\Ders14_Dictionary\bin\Debug\net5.0\Ders14_Dictionary.exe
+C:\Users\Barış\source\repos\DERSLER\Ders14_Dictionary\bin\Debug\net5.0\Ders14_Dictionary.deps.json
+C:\Users\Barış\source\repos\DERSLER\Ders14_Dictionary\bin\Debug\net5.0\Ders14_Dictionary.runtimeconfig.json
+C:\Users\Barış\source\repos\DERSLER\Ders14_Dictionary\bin\Debug\net5.0\Ders14_Dictionary.runtimeconfig.dev.json
+C:\Users\Barış\source\repos\DERSLER\Ders14_Dictionary\bin\Debug\net5.0\Ders14_Dictionary.dll
+C:\Users\Barış\source\repos\DERSLER\Ders14_Dictionary\bin\Debug\net5.0\ref\Ders14_Dictionary.dll
+C:\Users\Barış\source\repos\DERSLER\Ders14_Dictionary\bin\Debug\net5.0\Ders14_Dictionary.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders14_Dictionary\obj\Debug\net5.0\Ders14_Dictionary.csproj.AssemblyReference.cache
+C:\Users\Barış\source\repos\DERSLER\Ders14_Dictionary\obj\Debug\net5.0\Ders14_Dictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barış\source\repos\DERSLER\Ders14_Dictionary\obj\Debug\net5.0\Ders14_Dictionary.AssemblyInfoInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders14_Dictionary\obj\Debug\net5.0\Ders14_Dictionary.AssemblyInfo.cs
+C:\Users\Barış\source\repos\DERSLER\Ders14_Dictionary\obj\Debug\net5.0\Ders14_Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders14_Dictionary\obj\Debug\net5.0\Ders14_Dictionary.dll
+C:\Users\Barış\source\repos\DERSLER\Ders14_Dictionary\obj\Debug\net5.0\ref\Ders14_Dictionary.dll
+C:\Users\Barış\source\repos\DERSLER\Ders14_Dictionary\obj\Debug\net5.0\Ders14_Dictionary.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders14_Dictionary\obj\Debug\net5.0\Ders14_Dictionary.genruntimeconfig.cache

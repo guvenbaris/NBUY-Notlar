@@ -1,0 +1,16 @@
+C:\Users\Barış\source\repos\DERSLER\Ders13-Interface\bin\Debug\net5.0\Ders13-Interface.exe
+C:\Users\Barış\source\repos\DERSLER\Ders13-Interface\bin\Debug\net5.0\Ders13-Interface.deps.json
+C:\Users\Barış\source\repos\DERSLER\Ders13-Interface\bin\Debug\net5.0\Ders13-Interface.runtimeconfig.json
+C:\Users\Barış\source\repos\DERSLER\Ders13-Interface\bin\Debug\net5.0\Ders13-Interface.runtimeconfig.dev.json
+C:\Users\Barış\source\repos\DERSLER\Ders13-Interface\bin\Debug\net5.0\Ders13-Interface.dll
+C:\Users\Barış\source\repos\DERSLER\Ders13-Interface\bin\Debug\net5.0\ref\Ders13-Interface.dll
+C:\Users\Barış\source\repos\DERSLER\Ders13-Interface\bin\Debug\net5.0\Ders13-Interface.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders13-Interface\obj\Debug\net5.0\Ders13-Interface.csproj.AssemblyReference.cache
+C:\Users\Barış\source\repos\DERSLER\Ders13-Interface\obj\Debug\net5.0\Ders13-Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barış\source\repos\DERSLER\Ders13-Interface\obj\Debug\net5.0\Ders13-Interface.AssemblyInfoInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders13-Interface\obj\Debug\net5.0\Ders13-Interface.AssemblyInfo.cs
+C:\Users\Barış\source\repos\DERSLER\Ders13-Interface\obj\Debug\net5.0\Ders13-Interface.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders13-Interface\obj\Debug\net5.0\Ders13-Interface.dll
+C:\Users\Barış\source\repos\DERSLER\Ders13-Interface\obj\Debug\net5.0\ref\Ders13-Interface.dll
+C:\Users\Barış\source\repos\DERSLER\Ders13-Interface\obj\Debug\net5.0\Ders13-Interface.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders13-Interface\obj\Debug\net5.0\Ders13-Interface.genruntimeconfig.cache
