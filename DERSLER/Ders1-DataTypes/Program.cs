@@ -61,7 +61,6 @@ namespace Ders1_DataTypes
             //Console.WriteLine("******************");
             //Console.WriteLine($"Ad-Soyad : {nameSurname} \n Email : {email} \n Password : {parola}");
 
-
             // Referans Tipi Veriler
             // Ram'de ki adres bilgisini tutar
             // Tüm tiplerdeki değerleri alabilir

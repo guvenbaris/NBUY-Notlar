@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ders10_Encapsulation
 {
-    class User
+   public class User
     {
         public int Id;
         public string adSoyad;

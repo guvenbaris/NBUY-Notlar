@@ -37,7 +37,7 @@ namespace Ders12_Polymorphism.AbstractOrnek
             return this._Fiyat;
         }
 
-        abstract public double OtvHesapla();
-        abstract public double YillikVergiHesapla();
+        public abstract double OtvHesapla();
+        public abstract double YillikVergiHesapla();
     }
 }

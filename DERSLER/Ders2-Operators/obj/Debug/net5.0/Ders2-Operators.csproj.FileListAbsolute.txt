@@ -1,0 +1,16 @@
+C:\Users\Barış\source\repos\DERSLER\Ders2-Operators\bin\Debug\net5.0\Ders2-Operators.exe
+C:\Users\Barış\source\repos\DERSLER\Ders2-Operators\bin\Debug\net5.0\Ders2-Operators.deps.json
+C:\Users\Barış\source\repos\DERSLER\Ders2-Operators\bin\Debug\net5.0\Ders2-Operators.runtimeconfig.json
+C:\Users\Barış\source\repos\DERSLER\Ders2-Operators\bin\Debug\net5.0\Ders2-Operators.runtimeconfig.dev.json
+C:\Users\Barış\source\repos\DERSLER\Ders2-Operators\bin\Debug\net5.0\Ders2-Operators.dll
+C:\Users\Barış\source\repos\DERSLER\Ders2-Operators\bin\Debug\net5.0\ref\Ders2-Operators.dll
+C:\Users\Barış\source\repos\DERSLER\Ders2-Operators\bin\Debug\net5.0\Ders2-Operators.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders2-Operators\obj\Debug\net5.0\Ders2-Operators.csproj.AssemblyReference.cache
+C:\Users\Barış\source\repos\DERSLER\Ders2-Operators\obj\Debug\net5.0\Ders2-Operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barış\source\repos\DERSLER\Ders2-Operators\obj\Debug\net5.0\Ders2-Operators.AssemblyInfoInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders2-Operators\obj\Debug\net5.0\Ders2-Operators.AssemblyInfo.cs
+C:\Users\Barış\source\repos\DERSLER\Ders2-Operators\obj\Debug\net5.0\Ders2-Operators.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\DERSLER\Ders2-Operators\obj\Debug\net5.0\Ders2-Operators.dll
+C:\Users\Barış\source\repos\DERSLER\Ders2-Operators\obj\Debug\net5.0\ref\Ders2-Operators.dll
+C:\Users\Barış\source\repos\DERSLER\Ders2-Operators\obj\Debug\net5.0\Ders2-Operators.pdb
+C:\Users\Barış\source\repos\DERSLER\Ders2-Operators\obj\Debug\net5.0\Ders2-Operators.genruntimeconfig.cache

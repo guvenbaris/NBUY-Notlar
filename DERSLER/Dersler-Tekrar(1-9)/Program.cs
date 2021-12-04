@@ -269,6 +269,7 @@ namespace Dersler_Tekrar_1_9_
         {
             Console.WriteLine($"{Marka} {Model}");
         }
+
     }
 
 

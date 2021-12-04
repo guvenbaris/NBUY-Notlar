@@ -17,7 +17,7 @@ namespace Ders5_Arrays_Lists
             //rakamlar.SetValue(100, 0); //yukarıda ki işlemin alternatifidir.
             //Console.WriteLine($"rakamlar dizisinin ilk elemanı {rakamlar[0]}");
 
-            //string[] cities = { "Adana", "Adıyaman", "Afyon", "Ağrı", "Amasya" };
+            //string[] cities = { "Adana",};
             //foreach (var city in cities)
             //{
             //    Console.WriteLine(city);
