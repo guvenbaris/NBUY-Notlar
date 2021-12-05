@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders5-Arrays-Lists\\Ders5-Arrays-Lists.csproj": {}
+    "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders5-Arrays-Lists\\Ders5-Arrays-Lists.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders5-Arrays-Lists\\Ders5-Arrays-Lists.csproj": {
+    "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders5-Arrays-Lists\\Ders5-Arrays-Lists.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders5-Arrays-Lists\\Ders5-Arrays-Lists.csproj",
+        "projectUniqueName": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders5-Arrays-Lists\\Ders5-Arrays-Lists.csproj",
         "projectName": "Ders5-Arrays-Lists",
-        "projectPath": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders5-Arrays-Lists\\Ders5-Arrays-Lists.csproj",
+        "projectPath": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders5-Arrays-Lists\\Ders5-Arrays-Lists.csproj",
         "packagesPath": "C:\\Users\\Barış\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders5-Arrays-Lists\\obj\\",
+        "outputPath": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders5-Arrays-Lists\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Barış\\AppData\\Roaming\\NuGet\\NuGet.Config",

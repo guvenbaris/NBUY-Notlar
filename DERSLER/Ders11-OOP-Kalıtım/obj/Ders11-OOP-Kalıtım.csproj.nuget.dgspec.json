@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders11-OOP-Kalıtım\\Ders11-OOP-Kalıtım.csproj": {}
+    "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders11-OOP-Kalıtım\\Ders11-OOP-Kalıtım.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders11-OOP-Kalıtım\\Ders11-OOP-Kalıtım.csproj": {
+    "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders11-OOP-Kalıtım\\Ders11-OOP-Kalıtım.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders11-OOP-Kalıtım\\Ders11-OOP-Kalıtım.csproj",
+        "projectUniqueName": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders11-OOP-Kalıtım\\Ders11-OOP-Kalıtım.csproj",
         "projectName": "Ders11-OOP-Kalıtım",
-        "projectPath": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders11-OOP-Kalıtım\\Ders11-OOP-Kalıtım.csproj",
+        "projectPath": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders11-OOP-Kalıtım\\Ders11-OOP-Kalıtım.csproj",
         "packagesPath": "C:\\Users\\Barış\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders11-OOP-Kalıtım\\obj\\",
+        "outputPath": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders11-OOP-Kalıtım\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Barış\\AppData\\Roaming\\NuGet\\NuGet.Config",

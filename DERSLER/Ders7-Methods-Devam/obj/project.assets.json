@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders7-Methods-Devam\\Ders7-Methods-Devam.csproj",
+      "projectUniqueName": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders7-Methods-Devam\\Ders7-Methods-Devam.csproj",
       "projectName": "Ders7-Methods-Devam",
-      "projectPath": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders7-Methods-Devam\\Ders7-Methods-Devam.csproj",
+      "projectPath": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders7-Methods-Devam\\Ders7-Methods-Devam.csproj",
       "packagesPath": "C:\\Users\\Barış\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders7-Methods-Devam\\obj\\",
+      "outputPath": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders7-Methods-Devam\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Barış\\AppData\\Roaming\\NuGet\\NuGet.Config",

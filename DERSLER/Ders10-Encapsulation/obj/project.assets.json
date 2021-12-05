@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders10-Encapsulation\\Ders10-Encapsulation.csproj",
+      "projectUniqueName": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders10-Encapsulation\\Ders10-Encapsulation.csproj",
       "projectName": "Ders10-Encapsulation",
-      "projectPath": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders10-Encapsulation\\Ders10-Encapsulation.csproj",
+      "projectPath": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders10-Encapsulation\\Ders10-Encapsulation.csproj",
       "packagesPath": "C:\\Users\\Barış\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders10-Encapsulation\\obj\\",
+      "outputPath": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders10-Encapsulation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Barış\\AppData\\Roaming\\NuGet\\NuGet.Config",

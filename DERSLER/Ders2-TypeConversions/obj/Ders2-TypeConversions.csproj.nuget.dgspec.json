@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders2-TypeConversions\\Ders2-TypeConversions.csproj": {}
+    "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders2-TypeConversions\\Ders2-TypeConversions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders2-TypeConversions\\Ders2-TypeConversions.csproj": {
+    "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders2-TypeConversions\\Ders2-TypeConversions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders2-TypeConversions\\Ders2-TypeConversions.csproj",
+        "projectUniqueName": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders2-TypeConversions\\Ders2-TypeConversions.csproj",
         "projectName": "Ders2-TypeConversions",
-        "projectPath": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders2-TypeConversions\\Ders2-TypeConversions.csproj",
+        "projectPath": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders2-TypeConversions\\Ders2-TypeConversions.csproj",
         "packagesPath": "C:\\Users\\Barış\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders2-TypeConversions\\obj\\",
+        "outputPath": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders2-TypeConversions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Barış\\AppData\\Roaming\\NuGet\\NuGet.Config",
