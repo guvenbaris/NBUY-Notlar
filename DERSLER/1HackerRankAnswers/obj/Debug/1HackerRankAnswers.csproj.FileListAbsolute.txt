@@ -1,0 +1,7 @@
+C:\Users\Barış\source\repos\DERSLER\1HackerRankAnswers\bin\Debug\1HackerRankAnswers.exe.config
+C:\Users\Barış\source\repos\DERSLER\1HackerRankAnswers\bin\Debug\1HackerRankAnswers.exe
+C:\Users\Barış\source\repos\DERSLER\1HackerRankAnswers\bin\Debug\1HackerRankAnswers.pdb
+C:\Users\Barış\source\repos\DERSLER\1HackerRankAnswers\obj\Debug\1HackerRankAnswers.csproj.AssemblyReference.cache
+C:\Users\Barış\source\repos\DERSLER\1HackerRankAnswers\obj\Debug\1HackerRankAnswers.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\DERSLER\1HackerRankAnswers\obj\Debug\1HackerRankAnswers.exe
+C:\Users\Barış\source\repos\DERSLER\1HackerRankAnswers\obj\Debug\1HackerRankAnswers.pdb
