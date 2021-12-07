@@ -5,26 +5,42 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _1HackerRankAnswers
-{
+{ 
     class Program
     {
         static void Main(string[] args)
         {
             //PlusMinus(); 1.Soru
+
+            //MinMaxSum(); 2.Soru
+
+
+
+
+
+        }
+
+        private static void MinMaxSum()
+        {
             List<int> arr = new List<int>
             {
-                1,3,5,7,9
+                1, 2, 3, 45, 5, 67, 7, 78
             };
 
-            int minSum = 0;
-            int maxSum = 0;
-            int total = 0;
-
-            foreach (var item in arr)
+            long minSum = 0;
+            long maxSum = 0;
+            arr.Sort();
+            for (int i = 0; i < arr.Count - 1; i++)
             {
-                
+                minSum += arr[i];
             }
 
+            for (int i = arr.Count - 1; i > 0; i--)
+            {
+                maxSum += arr[i];
+            }
+
+            Console.WriteLine($"{minSum} {maxSum}");
         }
 
         private static void PlusMinus()
