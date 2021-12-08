@@ -20,6 +20,17 @@ namespace _1HackerRankAnswers
 
             //LonelyInteger();  5.Soru
 
+            //FlippingBits();  6.Soru
+
+
+        }
+
+        private static void FlippingBits()
+        {
+            // tilda işareti tersi anlamına geliyor 
+            // uint olarak casting yapıyoruz 
+            long sayi = 2147483647;
+            Console.WriteLine((uint)~sayi);
         }
 
         private static void LonelyInteger()
