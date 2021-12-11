@@ -1,0 +1,10 @@
+C:\Users\Barış\source\repos\DERSLER\OgretmenProject\bin\Debug\OgretmenProject.exe.config
+C:\Users\Barış\source\repos\DERSLER\OgretmenProject\bin\Debug\OgretmenProject.exe
+C:\Users\Barış\source\repos\DERSLER\OgretmenProject\bin\Debug\OgretmenProject.pdb
+C:\Users\Barış\source\repos\DERSLER\OgretmenProject\obj\Debug\OgretmenProject.csproj.AssemblyReference.cache
+C:\Users\Barış\source\repos\DERSLER\OgretmenProject\obj\Debug\OgretmenProject.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\DERSLER\OgretmenProject\obj\Debug\OgretmenProject.exe
+C:\Users\Barış\source\repos\DERSLER\OgretmenProject\obj\Debug\OgretmenProject.pdb
+C:\Users\Barış\source\repos\DERSLER\OgretmenProject\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Barış\source\repos\DERSLER\OgretmenProject\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Barış\source\repos\DERSLER\OgretmenProject\obj\Debug\OgretmenProject.csproj.CopyComplete
