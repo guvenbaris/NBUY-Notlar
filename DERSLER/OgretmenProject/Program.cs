@@ -17,7 +17,7 @@ namespace OgretmenProject
         {
             OgretmenDal _ogretmenDal = new OgretmenDal();
 
-            Add all ogretmen from json file
+            //Add all ogretmen from json file
             List<Ogretmen> ogretmens = new List<Ogretmen>();
             JsonDataHelper jsonDataHelper = new JsonDataHelper();
             ogretmens = jsonDataHelper.ReadJsonFile();
