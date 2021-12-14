@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _1HackerRankAnswers
-{ 
+{
     class Program
     {
         static void Main(string[] args)
@@ -22,24 +22,81 @@ namespace _1HackerRankAnswers
 
             //FlippingBits();  6.Soru
 
+            //diagonalDifference(); 7.soru
 
+            //CountingSort(); 8.Soru
 
-            int[,] matris = new int[5, 5];
+            //Pangrams(); 9.Soru
+        }
 
-            for (int i = 0; i < 5; i++)
+        private static void Pangrams()
+        {
+            string s = "We promptly judged antique ivory buckles for the prize";
+
+            string englishWords = "ABCDEFGHiJKLMNOPQRSTUVWXYZ";
+
+            string lowerEnglish = englishWords.ToLower();
+            string sentence = s.ToLower();
+            Console.WriteLine(sentence);
+            Console.WriteLine(lowerEnglish);
+            string result = "";
+
+            foreach (var enligsh in lowerEnglish)
             {
-                for (int j = 0; j < 5; j++)
+                foreach (var w in sentence)
                 {
-                    matris[i, j] = j;
+                    if (w == enligsh)
+                    {
+                        if (!result.Contains(w))
+                        {
+                            result += w;
+                        }
+                    }
                 }
             }
 
-            int capacity = matris.Length;
-
-            
-
-
+            if (result.Length == englishWords.Length)
+            {
+                Console.WriteLine("pangram");
+            }
+            else
+            {
+                Console.WriteLine("not pangram");
+            }
         }
+
+        private static void CountingSort()
+        {
+            List<int> arr = new List<int>();
+            for (int i = 0; i < 100; i++)
+            {
+                arr.Add(i);
+            }
+
+            int[] res = new int[100];
+            int val = 0;
+            for (int i = 0; i < arr.Count; i++)
+            {
+                val = arr[i];
+                res[val] += 1;
+            }
+
+            List<int> fin = new List<int>(res);
+        }
+
+        public static int diagonalDifference(List<List<int>> arr)
+        {
+            int sumRight = 0;
+            int sumLeft = 0;
+
+            for (int i = 0; i < (arr.Count); i++)
+            {
+                sumRight += arr[i][i];
+                sumLeft += arr[i][arr.Count - 1 - i];
+            }
+            return Math.Abs(sumRight - sumLeft);
+        }
+
 
         private static void FlippingBits()
         {
@@ -51,7 +108,7 @@ namespace _1HackerRankAnswers
 
         private static void LonelyInteger()
         {
-            List<int> numbers = new List<int> {1, 2, 3, 4, 1, 2, 3};
+            List<int> numbers = new List<int> { 1, 2, 3, 4, 1, 2, 3 };
             int count = 0;
             int unique = 0;
 
@@ -188,7 +245,7 @@ namespace _1HackerRankAnswers
 
         private static void PlusMinus()
         {
-            List<int> arr = new List<int> {1, 1, 0, -1, -1};
+            List<int> arr = new List<int> { 1, 1, 0, -1, -1 };
 
             double positive = 0;
             double negative = 0;
