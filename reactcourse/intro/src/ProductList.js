@@ -5,6 +5,7 @@ class ProductList extends Component {
         return (
             <div>
                 <h3>{this.props.info.title}</h3>
+
             </div>
         );
     }
