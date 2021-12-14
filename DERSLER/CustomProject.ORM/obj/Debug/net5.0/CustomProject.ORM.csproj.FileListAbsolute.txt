@@ -1,0 +1,17 @@
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\bin\Debug\net5.0\CustomProject.ORM.deps.json
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\bin\Debug\net5.0\CustomProject.ORM.dll
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\bin\Debug\net5.0\ref\CustomProject.ORM.dll
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\bin\Debug\net5.0\CustomProject.ORM.pdb
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\bin\Debug\net5.0\CustomProject.Common.dll
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\bin\Debug\net5.0\CustomProject.Entities.dll
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\bin\Debug\net5.0\CustomProject.Common.pdb
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\bin\Debug\net5.0\CustomProject.Entities.pdb
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\obj\Debug\net5.0\CustomProject.ORM.csproj.AssemblyReference.cache
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\obj\Debug\net5.0\CustomProject.ORM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\obj\Debug\net5.0\CustomProject.ORM.AssemblyInfoInputs.cache
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\obj\Debug\net5.0\CustomProject.ORM.AssemblyInfo.cs
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\obj\Debug\net5.0\CustomProject.ORM.csproj.CoreCompileInputs.cache
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\obj\Debug\net5.0\CustomProject.ORM.csproj.CopyComplete
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\obj\Debug\net5.0\CustomProject.ORM.dll
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\obj\Debug\net5.0\ref\CustomProject.ORM.dll
+C:\Users\Barış\source\repos\DERSLER\CustomProject.ORM\obj\Debug\net5.0\CustomProject.ORM.pdb
