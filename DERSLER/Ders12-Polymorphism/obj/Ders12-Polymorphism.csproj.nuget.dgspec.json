@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders12-Polymorphism\\Ders12-Polymorphism.csproj": {}
+    "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders12-Polymorphism\\Ders12-Polymorphism.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders12-Polymorphism\\Ders12-Polymorphism.csproj": {
+    "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders12-Polymorphism\\Ders12-Polymorphism.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders12-Polymorphism\\Ders12-Polymorphism.csproj",
+        "projectUniqueName": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders12-Polymorphism\\Ders12-Polymorphism.csproj",
         "projectName": "Ders12-Polymorphism",
-        "projectPath": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders12-Polymorphism\\Ders12-Polymorphism.csproj",
+        "projectPath": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders12-Polymorphism\\Ders12-Polymorphism.csproj",
         "packagesPath": "C:\\Users\\Barış\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\Ders12-Polymorphism\\obj\\",
+        "outputPath": "C:\\Users\\Barış\\source\\repos\\DERSLER\\Ders12-Polymorphism\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Barış\\AppData\\Roaming\\NuGet\\NuGet.Config",

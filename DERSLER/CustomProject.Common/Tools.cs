@@ -57,5 +57,25 @@ namespace CustomProject.Common
             }
             return list;
         }
+
+        public static TEt ToEt<TEt>(this DataTable dt) where TEt : class, new()
+        {
+            Type type = typeof(TEt);
+            TEt entity = new TEt();
+            PropertyInfo[] properties = type.GetProperties(); 
+
+            foreach (DataRow row in dt.Rows)
+            {
+                foreach (PropertyInfo propertyInfo in properties)
+                {
+                    object value = row[propertyInfo.Name];
+                    if (value != null)
+                    {
+                        propertyInfo.SetValue(entity, value);
+                    }
+                }
+            }
+            return entity;
+        }
     }
 }

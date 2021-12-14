@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dWiikp2uPe5Nwz5+oJHadUa1CpCDP+LSpi48BSbYDVSf3ytRKrhBSmgfquY3De2oM2baTW5us1kfDyJlle1JgQ==",
+  "dgSpecHash": "gCG7pWlQOMN+mCBFuhyF3TTRpFpj3tdrKRijlkAIUmrR+grvPAdPJcLJ2FbtJQfnUmjzfvwnzNC7kOjrpiqmsg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\JsonApp\\JsonApp.csproj",
+  "projectFilePath": "C:\\Users\\Barış\\source\\repos\\DERSLER\\JsonApp\\JsonApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Barış\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

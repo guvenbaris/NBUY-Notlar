@@ -10,6 +10,7 @@ namespace CustomProject.Common
     {
         public string TableName { get; set; }
         public string PrimaryColumn { get; set; }
+        public string IdentityColum { get; set; }
 
     }
 }

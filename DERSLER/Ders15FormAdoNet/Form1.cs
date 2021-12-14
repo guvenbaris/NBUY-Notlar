@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -44,22 +45,61 @@ namespace Ders15FormAdoNet
         private void Form1_Load(object sender, EventArgs e)
         {
             OgrenciListUpdate();
-
-
         }
+
+        private void LoadGuncelleForm()
+        {
+            DataRowView item = (DataRowView)cmbUpdate.SelectedItem;
+            int  id = int.Parse(item[0].ToString());
+
+            //int id = int.Parse(cmbUpdate.SelectedValue.ToString());
+            List<string> data = GetOgrenciInfo(id);
+            txtAdUpdate.Text = data.ElementAt(0);
+            txtSoyadUpdate.Text = data.ElementAt(1);
+            txtTelefonUpdate.Text = data.ElementAt(2);
+            txtTCUpdate.Text = data.ElementAt(3);
+        }
+        private List<string> GetOgrenciInfo(int id)
+        {
+
+            DBConnection();
+            SqlCommand command = new SqlCommand($"Select * From Ogrenci Where ID = {id}", _connection);
+            string adSoyad = "";
+            SqlDataReader dataReader = command.ExecuteReader();
+            List<string> data= new List<string>();
+            while (dataReader.Read())
+            {
+                data.Add(dataReader.GetString(1));
+                data.Add(dataReader.GetString(2));
+                data.Add(dataReader.GetString(3));
+                data.Add(dataReader.GetString(4));
+            }
+            DBDisconnection();
+            return data;
+        }
+
 
         private void OgrenciListUpdate()
         {
-            SqlDataAdapter dataAdapter = new SqlDataAdapter("Select ID,Concat(ad,' ',soyad) as [Ad Soyad],telefon as Telefon, tc as [TC K.Nu.] From Ogrenci", _connection);
+            SqlDataAdapter dataAdapter = new SqlDataAdapter("Select ID,Concat(ad,' ',soyad) as [Ad Soyad],telefon as Telefon, tc as [TC K.Nu.],ad,soyad From Ogrenci", _connection);
             DataTable dtOgrenci = new DataTable();
             dataAdapter.Fill(dtOgrenci);
             dgwOgrenciler.DataSource = dtOgrenci;
+            dgwOgrenciler.Columns["ID"].Visible = false;
+            dgwOgrenciler.Columns["ad"].Visible = false;
+            dgwOgrenciler.Columns["soyad"].Visible = false;
 
 
             //silme 
             cmbSil.DataSource = dtOgrenci;
             cmbSil.DisplayMember = "Ad Soyad";
             cmbSil.ValueMember = "ID";
+
+            cmbUpdate.DataSource = dtOgrenci;
+            cmbUpdate.DisplayMember = "Ad Soyad";
+            cmbUpdate.ValueMember = "ID";
+            cmbUpdate.SelectedIndex = 0;
+
         }
 
         private void btnEkle_Click(object sender, EventArgs e)
@@ -77,7 +117,6 @@ namespace Ders15FormAdoNet
             command.Parameters.AddWithValue("@tc", txtTc.Text);
 
             DBConnection();
-
 
             int affectedRowsCount = command.ExecuteNonQuery();
 
@@ -118,9 +157,6 @@ namespace Ders15FormAdoNet
                 }
                 DBDisconnection();
             }
-            
-
-
 
         }
 
@@ -138,5 +174,13 @@ namespace Ders15FormAdoNet
             DBDisconnection();
             return adSoyad;
         }
+
+        private void cmbUpdate_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            LoadGuncelleForm();
+            
+        }
+
+
     }
 }

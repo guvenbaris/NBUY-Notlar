@@ -7,7 +7,7 @@ using CustomProject.Entities;
 
 namespace CustomProject.ORM
 {
-    public class CategoriesORM : OrmBase<Categories>
+    public class CategoriesORM : OrmBase<Categories,CategoriesORM>
     {
     }
 }

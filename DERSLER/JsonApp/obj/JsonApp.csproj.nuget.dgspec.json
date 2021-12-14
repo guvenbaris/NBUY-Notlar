@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\JsonApp\\JsonApp.csproj": {}
+    "C:\\Users\\Barış\\source\\repos\\DERSLER\\JsonApp\\JsonApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\JsonApp\\JsonApp.csproj": {
+    "C:\\Users\\Barış\\source\\repos\\DERSLER\\JsonApp\\JsonApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\JsonApp\\JsonApp.csproj",
+        "projectUniqueName": "C:\\Users\\Barış\\source\\repos\\DERSLER\\JsonApp\\JsonApp.csproj",
         "projectName": "JsonApp",
-        "projectPath": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\JsonApp\\JsonApp.csproj",
+        "projectPath": "C:\\Users\\Barış\\source\\repos\\DERSLER\\JsonApp\\JsonApp.csproj",
         "packagesPath": "C:\\Users\\Barış\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Barış\\Desktop\\NBUY\\NBUY-Notlar\\DERSLER\\JsonApp\\obj\\",
+        "outputPath": "C:\\Users\\Barış\\source\\repos\\DERSLER\\JsonApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Barış\\AppData\\Roaming\\NuGet\\NuGet.Config",

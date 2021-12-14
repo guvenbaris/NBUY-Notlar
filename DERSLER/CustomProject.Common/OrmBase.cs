@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Dynamic;
 using System.Linq;
 using System.Reflection;
+using System.Threading.Tasks.Dataflow;
 using CustomProject.Common;
 using Microsoft.VisualBasic.CompilerServices;
 using Type = System.Type;
@@ -11,13 +13,49 @@ using Type = System.Type;
 
 namespace CustomProject.ORM
 {
-    public class OrmBase<ET> : IOrm<ET> where ET : class, new()
+    public class OrmBase<ET,OT> : IOrm<ET>
+        where ET : class, new()
+        where OT : class ,new()
     {
+        private static OT _current;
+
+        public static OT Current
+        {
+            get
+            {
+                if (_current == null)
+                {
+                    _current = new OT();
+                }
+                return _current;
+            }
+        }
+        public  Type ETType
+        {
+            get
+            {
+                return typeof(ET);
+            }
+        }
+        public Table TableAttribute
+        {
+            get
+            {
+                var attributes = ETType.GetCustomAttributes(typeof(Table), false);
+                if (attributes != null && attributes.Any())
+                {
+                    Table tbl = (Table)attributes[0];
+                    return tbl;
+                }
+
+                return null;
+            }
+        }
+
         public List<ET> Select()
         {
-            Type tip = typeof(ET);
             string query = $"Select * from ";
-            var attributes = tip.GetCustomAttributes(typeof(Table), false);
+            var attributes = ETType.GetCustomAttributes(typeof(Table), false);
             //Any() => Herhangi bir data var is True döner 
             //null değil ise ve kayıt var ise
 
@@ -45,77 +83,149 @@ namespace CustomProject.ORM
         }
         public bool Insert(ET entity)
         {
-            Type tip = typeof(ET);
-            var attributes = tip.GetCustomAttributes(typeof(Table), false);
-            string tableName = "";
-            if (attributes != null && attributes.Any())
-            {
-                Table tbl = (Table)attributes[0];
-                tableName += tbl.TableName;
-            }
+            PropertyInfo[] properties =  ETType.GetProperties();
 
+            string props = "";
             string values = "";
-            string parameters = "";
-            PropertyInfo[] properties = tip.GetProperties();
 
-            for (int i = 1; i < properties.Length; i++)
+            for (int i = 0; i < properties.Length; i++)
             {
-                values += properties[i].Name + ",";
-                parameters += properties[i].GetValue(entity) + ",";
+                if (properties[i].Name != TableAttribute.IdentityColum)
+                {
+                    if (properties[i].PropertyType.Name.Contains("String") || properties[i].PropertyType.Name.Contains("Char") || properties[i].PropertyType.Name.Contains("Byte[]"))
+                    {
+                        props += properties[i].Name + ",";
+                        values += string.Format($"'{properties[i].GetValue(entity)}',");
+                    }
+                    else
+                    {
+                        props += properties[i].Name + ",";
+                        values += string.Format($"'{properties[i].GetValue(entity)}',");
+                    }
+
+                }
             }
+
             values = values.Remove(values.Length - 1);
+            props = props.Remove(props.Length - 1);
 
-            string[] resultArray = parameters.Split(',');
-
-            string parametersResult = "";
-            for (int i = 0; i < resultArray.Length - 1; i++)
-            {
-                parametersResult += "'" + resultArray[i] + "'" + ",";
-                Console.WriteLine(resultArray[i]);
-            }
-            parametersResult = parametersResult.Remove(parametersResult.Length - 1);
-
-            Console.WriteLine(parameters);
-            string query = $"Insert into {tableName} ({values}) VALUES ({parametersResult})";
+            string query = $"Insert Into {TableAttribute.TableName} ({props}) VALUES ({values});";
 
             Tools.DbConnection();
 
             SqlCommand command = new SqlCommand(query, Tools._connection);
-            if (command.ExecuteNonQuery() > 0)
+
+            int effectedRows = command.ExecuteNonQuery();
+
+            Tools.DbDisconnection();
+
+            if (effectedRows> 0)
             {
-                Tools.DbDisconnection();
                 Console.WriteLine("Eklendi");
                 return true;
-
             }
-            Tools.DbDisconnection();
             return false;
+
         }
         public bool Update(ET entity)
         {
-            Type tip = typeof(ET);
+            PropertyInfo[] properties = ETType.GetProperties();
 
-            var attributes = tip.GetCustomAttributes(typeof(Table), false);
-
-            string tableName = "";
-            if (attributes != null && attributes.Any())
+            string updateValues = "";
+            int whereId = 0;
+ 
+            for (int i = 0; i < properties.Length; i++)
             {
-                Table table = new Table();
-                tableName += table.TableName;
+                if (properties[i].Name != TableAttribute.IdentityColum)
+                {
+                    if (properties[i].PropertyType.Name.Contains("String") || properties[i].PropertyType.Name.Contains("Char") || properties[i].PropertyType.Name.Contains("Byte[]"))
+                    {
+                        updateValues += string.Format($"{properties[i].Name} = '{properties[i].GetValue(entity)}',");
+                    }
+                    else
+                    {
+                        updateValues += string.Format($"{properties[i].Name} = {properties[i].GetValue(entity)},");
+                    }
+                }
+                else
+                {
+                    whereId = (int)properties[i].GetValue(entity)!;
+                }
             }
 
-            string values = "";
-            string parameters = "";
+            updateValues = updateValues.Remove(updateValues.Length - 1);
 
-            PropertyInfo[] properties = tip.GetProperties();
+            string query =
+                $"Update {TableAttribute.TableName} SET {updateValues} Where {TableAttribute.IdentityColum} = {whereId};";
 
+            Tools.DbConnection();
 
+            SqlCommand command = new SqlCommand(query, Tools._connection);
+
+            int effectedRows = command.ExecuteNonQuery();
+
+            Tools.DbDisconnection();
+
+            if (effectedRows > 0)
+            {
+                Console.WriteLine("Güncellendi");
+                return true;
+            }
+            return false;
 
         }
 
         public bool Delete(ET entity)
         {
-            throw new NotImplementedException();
+            PropertyInfo[] properties = ETType.GetProperties();
+
+            int deletedID = 0;
+
+            for (int i = 0; i < properties.Length; i++)
+            {
+                if (properties[i].Name == TableAttribute.IdentityColum)
+                {
+                    deletedID = (int)properties[i].GetValue(entity)!;
+                }
+            }
+
+            string query =
+                $"DELETE FROM {TableAttribute.TableName} WHERE {TableAttribute.IdentityColum} = {deletedID};";
+
+            Tools.DbConnection();
+
+            SqlCommand command = new SqlCommand(query, Tools._connection);
+
+            int effectedRows = command.ExecuteNonQuery();
+
+            Tools.DbDisconnection();
+
+            if (effectedRows > 0)
+            {
+                Console.WriteLine("Silindi");
+                return true;
+            }
+            return false;
+        }
+
+        public ET GetById(int id)
+        {
+            PropertyInfo[] properties = ETType.GetProperties();
+
+            string query = $"Select * FROM {TableAttribute.TableName} WHERE {TableAttribute.IdentityColum} = {id};";
+
+            Tools.DbConnection();
+
+            SqlCommand command = new SqlCommand(query,Tools._connection);
+
+            SqlDataReader reader = command.ExecuteReader();
+
+            DataTable dataTable = new DataTable();
+            dataTable.Load(reader);
+            reader.Close();
+            Tools.DbDisconnection();
+
+            return dataTable.ToEt<ET>();
         }
     }
 }

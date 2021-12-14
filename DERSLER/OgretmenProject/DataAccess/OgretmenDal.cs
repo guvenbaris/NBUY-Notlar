@@ -11,7 +11,7 @@ namespace OgretmenProject.DataAccess
 {
     public class OgretmenDal
     {
-        SqlConnection _connection = new SqlConnection(@"Server = (localdb)\MSSQLLocalDB; Database=DB_Test; Integrated Security = true");
+        SqlConnection _connection = new SqlConnection(@"Server = (localdb)\MSSQLLocalDB; Database=Northwind; Integrated Security = true");
         public void DbConnection()
         {
             try
@@ -51,6 +51,8 @@ namespace OgretmenProject.DataAccess
 
             }
             DbDisconnection();
+            Console.WriteLine("Mehaba = {0}",ogretmen.OgretmenAd);
+;
             return false;
 
             
