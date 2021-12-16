@@ -49,9 +49,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomProject.Entities", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomProject.ORM", "CustomProject.ORM\CustomProject.ORM.csproj", "{544652F6-72AC-40BF-87E9-D3DB652F1DA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUIDeneme", "ConsoleUIDeneme\ConsoleUIDeneme.csproj", "{563C87D1-AE22-47DB-8363-41F6C4FB9204}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomProject.View2", "CustomProject.View2\CustomProject.View2.csproj", "{3A9BB938-584D-44F1-98DD-5514B6DDF396}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomProject.View2", "CustomProject.View2\CustomProject.View2.csproj", "{3A9BB938-584D-44F1-98DD-5514B6DDF396}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,10 +145,6 @@ Global
 		{544652F6-72AC-40BF-87E9-D3DB652F1DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{544652F6-72AC-40BF-87E9-D3DB652F1DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{544652F6-72AC-40BF-87E9-D3DB652F1DA0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{563C87D1-AE22-47DB-8363-41F6C4FB9204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{563C87D1-AE22-47DB-8363-41F6C4FB9204}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{563C87D1-AE22-47DB-8363-41F6C4FB9204}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{563C87D1-AE22-47DB-8363-41F6C4FB9204}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3A9BB938-584D-44F1-98DD-5514B6DDF396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3A9BB938-584D-44F1-98DD-5514B6DDF396}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A9BB938-584D-44F1-98DD-5514B6DDF396}.Release|Any CPU.ActiveCfg = Release|Any CPU

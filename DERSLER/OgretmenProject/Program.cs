@@ -15,9 +15,9 @@ namespace OgretmenProject
     {
         static void Main(string[] args)
         {
-            OgretmenDal _ogretmenDal = new OgretmenDal();
-            
-            // Add all ogretmen from json file
+            //OgretmenDal _ogretmenDal = new OgretmenDal();
+
+            //Add all ogretmen from json file
             //List<Ogretmen> ogretmens = new List<Ogretmen>();
             //JsonDataHelper jsonDataHelper = new JsonDataHelper();
             //ogretmens = jsonDataHelper.ReadJsonFile();
@@ -29,7 +29,7 @@ namespace OgretmenProject
             //    }
             //}
 
-            // Show all teachers with json formatting and write to file
+            ////Show all teachers with json formatting and write to file
             //string resultEmpty = "";
             //foreach (var ogretmen in _ogretmenDal.GetAll())
             //{
@@ -40,9 +40,11 @@ namespace OgretmenProject
             //File.WriteAllText(@"D:\path.json", resultEmpty); // dosyaya yazdık hazırladığımız json dosyasını
             //Console.WriteLine("Done!!!");
 
+            //Console.WriteLine("Done");
+            //Console.ReadLine();
 
-            Console.WriteLine("Done");
-            Console.ReadLine();
-        }
+
+    }
+
     }
 }
