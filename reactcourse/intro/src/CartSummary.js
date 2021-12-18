@@ -1,32 +1,42 @@
-import React, { Component } from 'react';
-import { UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem} from "reactstrap";
+import React, { Component } from "react";
+import {
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  Badge,
+  NavItem,
+  NavLink,
+} from "reactstrap";
 class CartSummary extends Component {
-    render() {
-        return (
-            <div>
-                 <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  Options - {this.props.deneme.length}
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>
-                    Option 1
-                  </DropdownItem>
-                  <DropdownItem>
-                    Option 2
-                  </DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>
-                    Reset
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
-            </div>
-        );
-    }
+  renderSummary() {
+    return (
+      <UncontrolledDropdown nav inNavbar>
+        <DropdownToggle nav caret>
+          Your Cart
+        </DropdownToggle>
+        <DropdownMenu down>
+          {this.props.cart.map((cartItem) => (
+            <DropdownItem key={cartItem.product.id}>
+              {cartItem.product.productName}
+              <Badge color="success">{cartItem.quantity}</Badge>
+            </DropdownItem>
+          ))}
+          <DropdownItem divider />
+          <DropdownItem>Reset</DropdownItem>
+        </DropdownMenu>
+      </UncontrolledDropdown>
+    );
+  }
+  renderEmptyCart(){
+    return(
+      <NavItem>
+      <NavLink> Empty Cart</NavLink>
+    </NavItem>
+    )
+  }
+  render() {
+    return     <div> {this.props.cart.length>0 ? this.renderSummary():this.renderEmptyCart()}  </div>;
+  }
 }
-
 export default CartSummary;

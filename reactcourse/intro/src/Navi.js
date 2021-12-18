@@ -40,8 +40,7 @@ export default class Example extends React.Component {
               <NavItem>
                 <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
               </NavItem>
-             <CartSummary deneme = {this.props.cart}/>
-
+             <CartSummary cart = {this.props.cart}/>
             </Nav>
         </div>   
         </Navbar>
