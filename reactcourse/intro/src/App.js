@@ -41,6 +41,11 @@ export default class App extends Component {
     this.setState({ cart: newCart });
     alertify.success(product.productName + "added to cart", 1);
   };
+  removeFromCart = (product) => {
+    let newCart = this.state.cart.filter(c => c.product.id !== product.id);
+    this.setState({ cart: newCart });
+    alertify.error(product.productName + "deleted from cart");
+  };
   render() {
     let productInfo = { title: "ProductList" };
     let categoryInfo = { title: "CategoryList" };
@@ -70,7 +75,15 @@ export default class App extends Component {
                     />
                   }
                 />
-                <Route index path="/cart" element={<CartList />} />
+                <Route
+                  path="/cart"
+                  element={
+                    <CartList
+                      cart={this.state.cart}
+                      removeFromCart={this.removeFromCart}
+                    />
+                  }
+                />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </Col>
