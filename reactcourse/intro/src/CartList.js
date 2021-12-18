@@ -4,7 +4,7 @@ class CartList extends Component {
     render() {
         return (
             <div>
-                CartList
+                Cart List!
             </div>
         );
     }
