@@ -1,9 +1,10 @@
 import * as actionTypes from "../actions/actionTypes"
 import initialState from "./initialState";
 
-export default function changeCategoryReducer(state = initialState.currentCategory,action){
+export default function categoryListReducer(state = initialState.categories,action){
     switch (action.type) {
-        case actionTypes.CHANGE_CATEGORY:
+        case actionTypes.GET_CATEGORIES_SUCCESS:
+            console.log("hi")
             return action.payload;
         default:
             return state;
