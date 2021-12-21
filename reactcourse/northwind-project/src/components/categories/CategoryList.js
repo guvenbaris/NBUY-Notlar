@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { ListGroup, ListGroupItem,Badge } from "reactstrap";
 import { bindActionCreators } from "redux";
-import * as categoryAction from "../../redux/actions/categoryAction";
+import * as categoryActions from "../../redux/actions/categoryActions";
 
 class CategoryList extends Component {
   componentDidMount() {
@@ -41,9 +41,9 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
   return {
     actions: {
-      getCategories: bindActionCreators(categoryAction.getCategories, dispatch),
+      getCategories: bindActionCreators(categoryActions.getCategories, dispatch),
       changeCategory: bindActionCreators(
-        categoryAction.changeCategory,
+        categoryActions.changeCategory,
         dispatch
       ),
     },
