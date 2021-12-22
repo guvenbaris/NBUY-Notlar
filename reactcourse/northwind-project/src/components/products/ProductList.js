@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { Badge, Table,Button } from "reactstrap";
 import { bindActionCreators } from "redux";
 import * as productActions from "../../redux/actions/productActions";
-import * as cartAction from "../../redux/actions/cartAction";
+import * as cartActions from "../../redux/actions/cartActions";
 import alertify from "alertifyjs" 
 
 class ProductList extends Component {
@@ -63,7 +63,7 @@ function mapDispatchToProps(dispatch) {
   return {
     actions: {
       getProducts: bindActionCreators(productActions.getProducts, dispatch),
-      addToCart : bindActionCreators(cartAction.addToCart,dispatch),
+      addToCart : bindActionCreators(cartActions.addToCart,dispatch),
     },
   };
 }

@@ -20,6 +20,10 @@ export default function cartReducer(state = initialState.carts, action) {
       } else {
         return [...state, { ...action.payload }];
       }
+    case actionTypes.REMOVE_FROM_CART:
+      const deleteState = state.filter(cartItem=>cartItem.product.id !== action.payload.id)
+      return deleteState;
+
     default:
       return state;
   }
