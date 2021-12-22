@@ -1,12 +1,18 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { Badge, Table } from "reactstrap";
+import { Badge, Table,Button } from "reactstrap";
 import { bindActionCreators } from "redux";
 import * as productActions from "../../redux/actions/productActions";
+import * as cartAction from "../../redux/actions/cartAction";
+import alertify from "alertifyjs" 
 
 class ProductList extends Component {
   componentDidMount() {
     this.props.actions.getProducts();
+  }
+  addToCart = (product)=>{
+    this.props.actions.addToCart({quantity:1,product});
+    alertify.success(product.productName +" sepete eklendi")
   }
   render() {
     return (
@@ -22,6 +28,7 @@ class ProductList extends Component {
               <th>QuntityPerUnit</th>
               <th>UnitPrice</th>
               <th>UnitsInStock</th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
@@ -32,6 +39,11 @@ class ProductList extends Component {
                 <td>{product.quantityPerUnit}</td>
                 <td>{product.unitPrice}</td>
                 <td>{product.unitsInStock}</td>
+                <td>
+                  <Button color="success" onClick={()=> this.addToCart(product)}>
+                    Ekle
+                  </Button>
+                </td>
               </tr>
             ))}
           </tbody>
@@ -51,6 +63,7 @@ function mapDispatchToProps(dispatch) {
   return {
     actions: {
       getProducts: bindActionCreators(productActions.getProducts, dispatch),
+      addToCart : bindActionCreators(cartAction.addToCart,dispatch),
     },
   };
 }

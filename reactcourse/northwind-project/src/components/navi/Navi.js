@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   Collapse,
   Navbar,
@@ -8,6 +9,8 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
+
+import CartSummary from "../cart/CartSummary";
 
 export default class Navi extends React.Component {
   constructor(props) {
@@ -40,10 +43,10 @@ export default class Navi extends React.Component {
               <NavItem>
                 <NavLink>Form Demo 2</NavLink>
               </NavItem>
+              <CartSummary></CartSummary>
+
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
-                  GitHub
-                </NavLink>
+                <NavLink href="https://github.com/guvenbaris">GitHub</NavLink>
               </NavItem>
             </Nav>
           </div>
