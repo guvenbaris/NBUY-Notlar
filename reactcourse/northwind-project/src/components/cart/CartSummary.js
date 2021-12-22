@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+import * as cartActions from "../../redux/actions/cartActions";
+import alertify from "alertifyjs";
+import { Link } from "react-router-dom";
 import {
   UncontrolledDropdown,
   DropdownToggle,
@@ -9,15 +13,10 @@ import {
   NavLink,
   Badge,
 } from "reactstrap";
-import { bindActionCreators } from "redux";
-import * as cartActions from "../../redux/actions/cartActions";
-import alertify from "alertifyjs";
-
-
 class CartSummary extends Component {
 
   deleteToCart = (product) => {
-    this.props.actions.deleteItem(product)
+    this.props.actions.removeFromCart(product)
     alertify.warning(product.productName +" sepetten silindi")
   }
   renderEmpty() {
@@ -42,7 +41,7 @@ class CartSummary extends Component {
             }} onClick ={ ()=> this.deleteToCart(cartItem.product)}> - </Badge></DropdownItem>
           ))}
           <DropdownItem divider />
-              <DropdownItem>Sepete git</DropdownItem>
+            <Link to="/cart" style={{linkStyle:"none"}} > Sepete Git </Link>
         </DropdownMenu>
       </UncontrolledDropdown>
       );
@@ -64,7 +63,7 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch){
   return {
     actions : {
-        deleteItem : bindActionCreators(cartActions.removeFromCart,dispatch),
+      removeFromCart : bindActionCreators(cartActions.removeFromCart,dispatch),
     }
   }
 }
