@@ -46,7 +46,6 @@ class CartDetail extends Component {
     );
   }
 }
-
 function mapStateToProps(state) {
   return {
     cart: state.cartReducer,
