@@ -615,6 +615,10 @@
       "quantityPerUnit": "1",
       "unitsInStock": "2",
       "id": 78
+    },
+    {
+      "categoryId": 3,
+      "id": 79
     }
   ],
   "categories": [
