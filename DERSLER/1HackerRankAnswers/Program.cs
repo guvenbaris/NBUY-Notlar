@@ -105,7 +105,6 @@ namespace _1HackerRankAnswers
             long sayi = 2147483647;
             Console.WriteLine((uint)~sayi);
         }
-
         private static void LonelyInteger()
         {
             List<int> numbers = new List<int> { 1, 2, 3, 4, 1, 2, 3 };
@@ -121,12 +120,10 @@ namespace _1HackerRankAnswers
                         count += 1;
                     }
                 }
-
                 if (count != 2)
                 {
                     unique = numbers[i];
                 }
-
                 count = 0;
             }
 
@@ -215,8 +212,6 @@ namespace _1HackerRankAnswers
                     }
                 }
             }
-
-
             Console.WriteLine(mySaat);
         }
 
@@ -239,7 +234,6 @@ namespace _1HackerRankAnswers
             {
                 maxSum += arr[i];
             }
-
             Console.WriteLine($"{minSum} {maxSum}");
         }
 
@@ -266,7 +260,6 @@ namespace _1HackerRankAnswers
                     zeros += 1;
                 }
             }
-
             Console.WriteLine(positive / arr.Count);
             Console.WriteLine(negative / arr.Count);
             Console.WriteLine(zeros / arr.Count);
