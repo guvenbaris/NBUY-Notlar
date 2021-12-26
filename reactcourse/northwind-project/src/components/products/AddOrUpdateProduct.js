@@ -15,6 +15,7 @@ function AddOrUpdateProduct({
 }) {
   //props.product'ı setProduct fonk. ile set edebilirim.
   const [product, setProduct] = useState({ ...props.product });
+  const [errors,setErrors] = useState({});
   useEffect(() => {
     if (categories.length === 0) {
       getCategories();
@@ -27,8 +28,18 @@ function AddOrUpdateProduct({
     const { name, value } = event.target;
     setProduct((previousProduct) => ({
       ...previousProduct,
-      [name]: name === "categoryId" ? parseInt(value, 10) : value,
+      [name]: name === "categoryId" ? parseInt(value, 10) : value
     }));
+
+    validate(name,value);
+  }
+  function validate(name,value){
+    if(name==="produtName" && value === ""){
+      setErrors(previousErrors => ({...previousErrors,productName:"Ürün ismi olmalıdır."}));
+    }
+    else{
+      setErrors(previousErrors => ({...previousErrors,productName:""}));
+    }
   }
   function handleSave(event) {
     event.preventDefault();
@@ -42,17 +53,19 @@ function AddOrUpdateProduct({
       categories={categories}
       onChange={handleChange}
       onSave={handleSave}
+      errors={errors}
     ></ProductDetail>
   );
 }
 
 export function getProductById(products, productId) {
-  let product = products.find((product) => product.id === productId) || null;
+  let product = products.find((product) => product.id == productId) || null;
   return product;
 }
 
 function mapStateToProps(state,ownProps) {
-  const productId = ownProps.match.params.productId;
+  // const productId = ownProps.match.params.productId;
+  const productId = 1;
   const product = productId && state.productListReducer.length > 0
       ? getProductById(state.productListReducer, productId)
       : {}

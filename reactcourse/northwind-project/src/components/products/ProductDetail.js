@@ -11,7 +11,7 @@ const ProductDetail = ({ categories, product, onSave, onChange,errors }) => {
         label="Product Name"
         value={product.productName}
         onChange={onChange}
-        // error={errors.productName}
+        error={errors.productName}
       />
 
       <SelectInput
@@ -24,7 +24,7 @@ const ProductDetail = ({ categories, product, onSave, onChange,errors }) => {
           text: category.categoryName
         }))}
         onChange={onChange}
-        // error={errors.categoryId}
+        error={errors.categoryId}
       />
 
       <TextInput
@@ -32,7 +32,7 @@ const ProductDetail = ({ categories, product, onSave, onChange,errors }) => {
         label="Unit Price"
         value={product.unitPrice}
         onChange={onChange}
-        // error={errors.unitPrice}
+        error={errors.unitPrice}
       />
 
       <TextInput
@@ -40,7 +40,7 @@ const ProductDetail = ({ categories, product, onSave, onChange,errors }) => {
         label="Quantity Per Unit"
         value={product.quantityPerUnit}
         onChange={onChange}
-        // error={errors.quantityPerUnit}
+        error={errors.quantityPerUnit}
       />
 
       <TextInput
@@ -48,7 +48,7 @@ const ProductDetail = ({ categories, product, onSave, onChange,errors }) => {
         label="Units In Stock"
         value={product.unitsInStock}
         onChange={onChange}
-        // error={errors.unitsInStock}
+        error={errors.unitsInStock}
       />
 
       <button type="submit" className="btn btn-success">
