@@ -31,6 +31,7 @@ namespace _1HackerRankAnswers
 
         private static void Pangrams()
         {
+            
             string s = "We promptly judged antique ivory buckles for the prize";
 
             string englishWords = "ABCDEFGHiJKLMNOPQRSTUVWXYZ";
@@ -86,6 +87,7 @@ namespace _1HackerRankAnswers
 
         public static int diagonalDifference(List<List<int>> arr)
         {
+            //Matrisin diagonal karşılıklarını bulma
             int sumRight = 0;
             int sumLeft = 0;
 
