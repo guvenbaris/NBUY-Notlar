@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+   <h1>JS Dersi</h1>
+    
+    <script>
+
+        //"use strict" // Güncel olan js yi kullan.
+        /*
+        alert("Merahba JS");
+        console.log("Hayırlı işler")
+
+        //Data Types in Js 
+        var message = "Hello world"
+        var message =5;
+        let message1 = "Hello wordl 2"
+       
+        Number : tam,ondalıklı
+        BigInt : daha büyük sayılar için
+        String : "asdaasdsa"
+        Boolean : true/false
+        null : yokluk,nothing,empty
+        undefined : value is not assigned
+        let isGreater = 4>1; // true
+        */
+        let age; 
+        console.log(age);
+        
+        let degisken = "xxx"
+        console.log( typeof degisken);
+
+        var surname = "Demir"
+        var surname = "Krom"
+
+        console.log(`Welcome ${surname}`)
+        //alert prompt confirm 
+        // kullanıcıdan Veri girişi yapmamızı sağlıyor. 
+        /*result = prompt("İsim Giriniz : ")  
+        console.log(`İsminiz ${result}`);           
+        */
+
+        //Loogical Operators 
+        const  pi = 3.14; // sabit
+        let a  = true;
+        let b = false;
+        let orOperator = a || b // a veya b 'den en az bir tanesi true ise true döner
+
+        console.log(orOperator,pi*pi);
+
+        let andOperator = a && b;
+        console.log(andOperator);
+
+        let status = true;
+        let notState = !status;
+        console.log(notState);
+        
+        let msg = "Boğa";
+
+        let booleanMsg = !!msg;
+        // değiken NaN,Null,0,Empty String or false it will be false
+        console.log("Boolean Message : "+booleanMsg);
+        
+
+        // Loops 
+        let counter = 1
+        while(counter <= 5){
+            console.log(counter + ". Merhaba")
+            counter +=1;
+        }
+
+       /* do{
+            //loop body
+        }while(condition);
+        */
+        for(let i = 0;i<= 4;i++)
+        {
+            console.log(i+1 +". Dünya");
+        }
+        //Arrays 
+        /*
+        let arr = new Array();
+        let arr2 = [];
+        let fruits = ["Apple","Orange","Plum"];
+
+        console.log(fruits[1]);
+
+        fruits[1] = "Banana";
+        fruits[3] = "Strawberry" 
+        console.log(fruits[2]);
+
+        fruits.push("Kiraz");
+        console.log(fruits);
+
+        splice(start) // diziden eleman silme ve güncelleme işlemlerini yapabiliyoruz.
+        splice(start,deleteCount,item)
+        */
+
+        //Iterable  // sayılabilir.
+
+        let str = "istanbul";
+        let iterator = str[Symbol.iterator]();
+
+        for(let i = 0; i< str.length;i++ ){
+            console.log( iterator.next().value);
+        }
+        
+        let markalar = ["TOGG","Mercedes","BMW"]
+        markalar.forEach(element=> {
+            console.log(element);
+        })
+        
+        for ( x of markalar) { // dizi elemanlarında döngü
+            console.log(x);
+        } 
+
+
+
+
+    </script>
+
+
+</body>
+</html>

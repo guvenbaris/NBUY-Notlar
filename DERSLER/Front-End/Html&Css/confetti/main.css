@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/* Putting font poppins it is a very beautiful font also if you dont have installed it on your system it might not show so you need to import it from *google fonts* */
+    font-family: 'Poppins';
+}
+
+/* Now here we are just styling the background and centering it to the middle */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 4rem;
+    text-shadow: 0 0 10px;
+}

@@ -1,0 +1,9 @@
+.cell{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    width: auto;
+    height: 300px;
+}
+.cell-column-full{
+    display: none;
+}

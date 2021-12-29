@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <title>Blog sayfası</title>
+  </head>
+  <body>
+    <header >
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <div class="container-fluid" >
+          <a class="navbar-brand" id="brand" href="#" style="font-weight: 500; padding-right:0;">
+            <img
+              src="./images/logo.jpg"
+              alt=""
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            Microsoft
+          </a>
+          <a class="navbar-brand" href="#" style="font-size: 18px;
+          font-weight: 600; padding-left:0;"
+            >| .NET LOG</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="#"
+                  style="font-weight: 300"
+                  >DevBlogs</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="font-weight: 300"
+                  >Developer</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="font-weight: 300"
+                  >Technology</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="font-weight: 300"
+                  >Languages</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="font-weight: 300">.NET</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="font-weight: 300"
+                >
+                  Platform Development
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="font-weight: 300"
+                >
+                  Data Development
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button id="button"
+                    class="btn btn-primary"
+                    type="submit"
+                    style="border-radius: 10px"
+                  >
+                    Login
+                  </button>
+        <i id="icon" class="fas fa-search"></i>
+      </nav>
+    </header>
+
+    <section id="defination">
+      <div>.NET Blog</div>
+      <div>
+        Free. Cross-platform. Open source. A developer platform for building all
+        your apps.
+      </div>
+    </section>
+
+    <section id="blog">
+      <div class="blog-content">
+        <div class="blog-image">
+          <img
+            src="./images/blog.jpg"
+            alt=""
+            style="width: 276px; height: 177px"
+          />
+        </div>
+        <div class="blog-message">
+          <div class="header">
+            <h5><a href="">Announcing the Plan for EF7</a></h5>
+          </div>
+          <div class="person-info">
+            <img
+              src="./images/profile.jpg"
+              alt=""
+              style="width: 36px; height: 36px"
+            />
+            <span>AdSoyad</span>
+            <span>Tarih</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis!
+            </p>
+            <hr />
+          </div>
+          <div class="person-ability">
+            <i class="far fa-comment-alt"><span>8</span></i>
+            <a href="">.NET</a>
+            <a href="">.NET Core</a>
+            <a href="">Entity Framework</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="blog">
+      <div class="blog-content">
+        <div class="blog-image">
+          <img
+            src="./images/blog.jpg"
+            alt=""
+            style="width: 276px; height: 177px"
+          />
+        </div>
+        <div class="blog-message">
+          <div class="header">
+            <h5><a href="">Announcing the Plan for EF7</a></h5>
+          </div>
+          <div class="person-info">
+            <img
+              src="./images/profile.jpg"
+              alt=""
+              style="width: 36px; height: 36px"
+            />
+            <span>AdSoyad</span>
+            <span>Tarih</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis!
+            </p>
+            <hr />
+          </div>
+          <div class="person-ability">
+            <i class="far fa-comment-alt"><span>8</span></i>
+            <a href="">.NET</a>
+            <a href="">.NET Core</a>
+            <a href="">Entity Framework</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog">
+      <div class="blog-content">
+        <div class="blog-image">
+          <img
+            src="./images/blog.jpg"
+            alt=""
+            style="width: 276px; height: 177px"
+          />
+        </div>
+        <div class="blog-message">
+          <div class="header">
+            <h5><a href="">Announcing the Plan for EF7</a></h5>
+          </div>
+          <div class="person-info">
+            <img
+              src="./images/profile.jpg"
+              alt=""
+              style="width: 36px; height: 36px"
+            />
+            <span>AdSoyad</span>
+            <span>Tarih</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis!
+            </p>
+            <hr />
+          </div>
+          <div class="person-ability">
+            <i class="far fa-comment-alt"><span>8</span></i>
+            <a href="">.NET</a>
+            <a href="">.NET Core</a>
+            <a href="">Entity Framework</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog">
+      <div class="blog-content">
+        <div class="blog-image">
+          <img
+            src="./images/blog.jpg"
+            alt=""
+            style="width: 276px; height: 177px"
+          />
+        </div>
+        <div class="blog-message">
+          <div class="header">
+            <h5><a href="">Announcing the Plan for EF7</a></h5>
+          </div>
+          <div class="person-info">
+            <img
+              src="./images/profile.jpg"
+              alt=""
+              style="width: 36px; height: 36px"
+            />
+            <span>AdSoyad</span>
+            <span>Tarih</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis!
+            </p>
+            <hr />
+          </div>
+          <div class="person-ability">
+            <i class="far fa-comment-alt"><span>8</span></i>
+            <a href="">.NET</a>
+            <a href="">.NET Core</a>
+            <a href="">Entity Framework</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog">
+      <div class="blog-content">
+        <div class="blog-image">
+          <img
+            src="./images/blog.jpg"
+            alt=""
+            style="width: 276px; height: 177px"
+          />
+        </div>
+        <div class="blog-message">
+          <div class="header">
+            <h5><a href="">Announcing the Plan for EF7</a></h5>
+          </div>
+          <div class="person-info">
+            <img
+              src="./images/profile.jpg"
+              alt=""
+              style="width: 36px; height: 36px"
+            />
+            <span>AdSoyad</span>
+            <span>Tarih</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis!
+            </p>
+            <hr />
+          </div>
+          <div class="person-ability">
+            <i class="far fa-comment-alt"><span>8</span></i>
+            <a href="">.NET</a>
+            <a href="">.NET Core</a>
+            <a href="">Entity Framework</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

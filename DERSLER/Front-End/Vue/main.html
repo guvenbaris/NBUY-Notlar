@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.js Giriş Eğitimi</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <p v-once>{{title}}</p>
+        <p>{{mesaj()}} <a v-bind:href = "link">Linke Git</a> </p>
+        <p v-once>{{title}}</p>
+        <p v-html=blogLink></p>
+
+
+
+
+    </div>
+
+    <script>
+        new Vue({
+
+            el:"#app",
+            data: {
+              title:"Hello World", 
+              description:"açıklama",
+              link:"https://tr.reactjs.org/",
+              blogLink:"<a href='https://tr.reactjs.org/'>Link</a>"
+            },
+            methods:{
+            mesaj: function(){
+             this.title = "bilgihan"
+             return this.title
+            }
+            
+            }
+            });
+
+    </script>
+</body>
+</html>

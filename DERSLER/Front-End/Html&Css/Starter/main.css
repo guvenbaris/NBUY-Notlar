@@ -1,0 +1,98 @@
+body{
+    background-color: bisque;
+}
+#main{
+    
+    width: 80%;
+    margin: 0 auto;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.slider{
+    width: 5%;
+    height: 300px;
+    background-color: aqua;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:36px;
+
+}
+.image-show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    } 
+ #slider img {
+     width: 100%;
+     height: 300px;
+ } 
+
+#middle{
+    width: 100%;
+    height: 300px;
+    background-color: orange;
+    text-align: center;
+    font-size:36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content{
+    width: 80%;
+    margin: 0 auto;
+    height: 1200px;
+    background-color: magenta;
+}
+.middle-body{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border: black solid 3px;
+}
+
+.middle-right{
+    height: 600px;
+    font-size: 36px;
+    width: 20%;
+
+    background-color:aquamarine;
+}
+
+.middle-left{
+    height: 600px;
+    width: 80%;
+    font-size: 36px;
+    background-color: aqua;
+    display: flex;
+}
+#deneme {
+    height: 300px;
+    width: 1200px;
+    background-color: red;
+    padding-left: 20px;
+    border: black solid 5px;
+    margin: 20px 0;
+
+}
+#deneme2{
+    height: 300px;
+    width: 1200px;
+    background-color: blue;
+    margin-top:200px;
+}

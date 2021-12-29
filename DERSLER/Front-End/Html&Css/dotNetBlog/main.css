@@ -1,0 +1,83 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+#brand{
+    margin-left:5rem;
+}
+nav a{
+    padding: 0 12px;
+    font-size: 13px;
+    font-weight:inherit ;
+}
+#button{
+    /* padding: 1rem; */
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+#icon{
+    margin-right:10rem;
+}
+#defination{
+    background-image:url("https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2020/12/banner-developers-blue.png");
+    height: 300px;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    justify-content:center;
+    flex-direction: column;
+    
+}
+
+#defination div:first-child{
+    margin-left:300px;
+    font-weight: 600;
+    font-size:36px ;
+    line-height: 26px;
+    color:white;
+}
+#defination div:nth-child(2){
+    margin-left:300px;
+    padding-top: 10px;
+    font-weight: 600;
+    line-height: 26px;
+    color:white;
+}
+#blog{
+    background-color:#f4f4f4;
+    width: 75%;
+    height: 264px;
+    margin: 36px 15%;
+}
+.blog-content{
+    display: flex;
+    justify-content:space-between;
+    text-align: left;
+    
+}
+.blog-image{
+    padding: 12px;
+    margin-left: 36px;
+    margin-top: 24px;
+}
+.blog-message{
+   padding: 12px;
+   font-size:1.0625rem;
+   margin-right: 10rem;
+   margin-top: 24px;
+}
+.person-ability{
+    font-size: 16px;
+}
+.person-ability span{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.person-ability a {
+    margin: 0 5px;
+}
+
+/* #f4f4f4 dış
+#1e2036  iç  */

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom </title>
+    <style>
+        #kutu{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .ickutu{
+            width: 200px;
+            margin: 10px;
+        }
+        #link{
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;
+            text-align: left;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="kutu" style="height: 400px; background-color:orange; padding:50px">
+        <section class="genel">
+            <ul id="menu">
+                <li>ITEM 1</li>
+                <li>ITEM 2</li>
+                <li>ITEM 3</li>
+                <li>ITEM 4</li>
+                <li>ITEM 5</li>
+
+            </ul>
+        </section>
+        <div class="ickutu" style="height: 200px; background-color:red; padding:50px"></div>
+        <div class="ickutu" style="height: 200px; background-color:blue; padding:50px"></div>
+        <div class="ickutu" style="height: 200px; background-color:red; padding:50px"></div>
+        <div class="ickutu" style="height: 200px; background-color:blue; padding:50px"></div>
+        <div id="link">
+            <a href="#">Yeni dünya ya gider</a>
+            <a href="#">Yeni dünya ya gider</a>
+            <a href="#">Yeni dünya ya gider</a>
+            <a href="#">Yeni dünya ya gider</a>
+            <a href="#">Yeni dünya ya gider</a>
+            <a href="#">Yeni dünya ya gider</a>
+        </div>
+    </div>
+
+    <script>
+        let box = document.getElementById('kutu');
+        box.style.background = "yellow"
+
+        let boxIn = document.getElementsByClassName("ickutu");
+        for(let i = 0;i <=boxIn.length;i++){
+            //boxIn[i].style.background = "purple";
+        }
+        let elements =  document.getElementsByTagName("a");
+        for (let element of elements){
+            element.style.textDecoration="None";
+            let sayi = 1;
+            element.innerHTML = "Network Akademi ";
+        } 
+
+        let ul = document.querySelector('.genel ul#menu li')
+        ul.style ="list-style-type:None";
+
+        console.log(ul);
+        let lis = document.querySelectorAll('.genel ul#menu li');
+        for (let element of lis){
+            element.innerHTML = "Madde"
+            element.style = "padding:1rem;"
+        }
+        let lis2 = document.querySelector('genel ul#menu li:nth-child(2)');
+        lis2.style.background = "red";
+
+    </script>
+</body>
+</html>

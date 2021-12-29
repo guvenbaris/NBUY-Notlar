@@ -1,0 +1,101 @@
+body{
+    font-size:1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    background-color: #1DA1F2;
+}
+.icon img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.icon span {
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: 700;
+}
+.search-button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 2rem;
+
+}
+.search{
+    margin: 0 2rem;
+    padding: 0 1rem;
+    font-size: 1.25rem;
+
+}
+.button {
+    background-color: white;
+    border-radius: 5px;
+    color: #1DA1F2;
+}
+.button:hover{
+    background-color: #1DA1F2;
+    color: red;
+}
+.user-tweets {
+    display: flex;
+    justify-content:space-around;
+    margin: 2.5rem 1rem;
+}
+.all-tweets {
+    width: 50%;
+    margin-right: 2rem;
+}
+.tweets {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2.5rem 0;
+}
+.user-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+.user-info img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    margin-bottom: 1.5rem;
+}
+.user-info p {
+    margin-left: 1.25rem;
+    font-style: italic;
+
+
+}
+.tweet {
+    padding: 1rem;
+    font-size:1.25rem;
+    font-weight:400;
+    font-style: normal;
+    text-align: justify;
+}
+.sender{
+    background-image: url("background.jpg");
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 50%;
+}
+.sender form textarea {
+    width: 100%;
+}
+.sender form label {
+    margin-bottom: 0.5rem;
+}

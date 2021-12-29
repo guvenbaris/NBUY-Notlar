@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    color:white;
+
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color:#5e9c9b;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 12px;
+    padding: 12px;
+    width: 40%;
+}
+
+.navbar-items {
+    margin: 12px;
+    padding: 12px;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    width: 60%;
+
+}
+.navbar-items li {
+    list-style: none;
+    margin: 0 12px;
+    padding: 0 12px;
+}
+.navbar-items a {
+    color: white;
+    text-decoration: none;
+}
+.defination { 
+    width: 100%;
+    height:1200px;
+    opacity: 0.8;
+    background-image: url("container.jpg");
+    background-size: contain;
+}
+.defination-info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.user-form{
+    width: 20%;
+    margin: 2rem 5rem;
+}

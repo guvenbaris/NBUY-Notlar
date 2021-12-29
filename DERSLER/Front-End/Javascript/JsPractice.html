@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+  
+    <style>
+        /*
+        #top-side{
+            display: flex;
+            justify-content: center;
+            background-color: green;
+            width: 100%;
+            height: 600px;
+        }
+        #navbar{
+            display:flex;
+            height: 300px;
+            width: 100%;
+        }
+        .box-1{
+            background-color: red;
+            height: 300px;
+            width: 40%;
+        }
+        .box-2{
+            background-color: blue;
+            height: 300px;
+            width: 60%;
+        }
+    
+           */
+    </style>
+ 
+</head>
+<body>
+    <h1>Give All Css With JavaScript</h1>
+
+    <section id="top-side" >
+        <div id="navbar">
+            <div class="box-1"></div>
+            <div class="box-2"></div>
+        </div>
+        <div id="alphabet">
+            <div class="alpahbet">A</div>
+            <div class="alpahbet">B</div>
+            <div class="alpahbet">C</div>
+            <div class="alpahbet">D</div>
+            <div class="alpahbet">E</div>
+            <div class="alpahbet">F</div>
+        </div>
+    </section>
+
+    <section id="bottom-side">
+        <div class="box2"></div>
+        <div class="box2"></div>
+        <div class="box2"></div>
+    </section>
+    
+
+    <script>
+       let topSide = document.getElementById("top-side");
+        topSide.style = "display:flex; background-color:red; width :100%;height :600px;  flex-direction: column;"
+
+
+        let navbar = document.getElementById("navbar");
+        navbar.style = "display:flex;width :100%;height:300px;"
+
+        let box_1  = document.querySelector("#top-side #navbar .box-1");
+        let box_2 = document.querySelector("#top-side #navbar .box-2");
+
+        box_1.style = "background-color:yellow;width :40%;height :300px;"
+        box_2.style = "background-color:blue;width: 60%;height :300px;"
+
+
+        let alphabets = document.querySelectorAll("#alphabet div")
+
+        let sayi = 20;
+        for(let alphabet of alphabets){
+            
+            alphabet.style = `width:100%;height:100px;background-color:pink; text-align:center` 
+            sayi = sayi +1; 
+        }
+        let deneme = document.getElementById("alphabet")
+        deneme.style = "display:flex"
+
+
+    </script>
+</body>
+</html>
+
