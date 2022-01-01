@@ -64,3 +64,5 @@ const database = {
 }
 console.log(database.host);
 database.add();
+
+database.delete(10);
