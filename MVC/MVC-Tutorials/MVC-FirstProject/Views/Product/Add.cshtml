@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+</head>
+<body>
+<div>
+<h1> Add </h1>
+<h2>Product Name : @ViewBag.ProductName</h2>
+<h2>Unit Price : @ViewBag.UnitPrice</h2>
+@Html.Action("Create","Product")
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿@{
+    Layout = null;
+}
+@using System.Security.Cryptography
+@using MVC_FirstProject.Models
+@model List<MVC_FirstProject.Models.Categories>
+@*Gelen veri string bir list verisidir dedik*@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>List</title>
+</head>
+<body>
+    <div>
+        @{
+            foreach (var category in @Model)
+            {
+                <h1>@category.CategoryName</h1>
+                <h1>@category.CategoryId</h1>
+                <h1>@category.Picture</h1>
+                <h1>@category.Description</h1>
+            }
+        }
+
+    </div>
+</body>
+</html>
+
+<!--
+
+Product isimli controlleri tanımlayınız içerisinde
+aşağıda ki sayfaları çalıştıracak actionlar bulunsun.
+Select => ProductId,ProductName,UnitPrice
+Delete => ProductId bilgisi Actiondan alınacak
+Update => ProductId bilgisi Actiondan alınacak
+Add => ProductName,UnitPrice bilgileri Action'dan  alınacak
+-->
