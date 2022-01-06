@@ -1,6 +1,8 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -27,6 +29,158 @@ namespace _1HackerRankAnswers
             //CountingSort(); 8.Soru
 
             //Pangrams(); 9.Soru
+
+            //Consonant();
+
+            //PrimeNumber();
+
+
+            //string[] inputs = new string[]
+            //{
+            //    "(1,2,3,4,5,6,7,8,1)", "(x,x,x,x,x,x,x,x,x)", "(1,x,x,x,x,x,x,x,x)", "(1,x,x,x,x,x,x,x,x)",
+            //    "(x,x,x,x,x,x,x,x,x)", "(x,x,x,x,x,x,x,x,x)", "(x,x,x,x,x,x,x,x,x)", "(x,x,x,x,x,x,x,x,x)",
+            //    "(x,x,x,x,x,x,x,x,x)"
+            //};
+            //string[] variables = new string[9];
+            //List<string> parts1 = new List<string>();
+            //List<string> parts2 = new List<string>();
+            //List<string> parts3 = new List<string>();
+            //int sayi = 0;
+
+            //string regular = "";
+            //int repeat = 0;
+            //for (int i = 0; i < inputs.Length; i++)
+            //{
+
+            //    regular = inputs[i].Replace("(", String.Empty);
+            //    regular = regular.Replace(")", String.Empty);
+
+            //    variables = regular.Split(',');
+
+
+            //    //Döngüde tekrar edenleri bul x boş olma durumuna bak
+            //    foreach (var x in variables)
+            //    {
+            //        foreach (var y in variables)
+            //        {
+            //            if (x == y)
+            //            {
+            //                repeat = i;
+            //            }
+            //        }
+            //    }
+
+            //    if (i < 3)
+            //    {
+            //        for (int j = 0; j < 3; j++)
+            //        {
+            //            parts1.Add(variables[j]);
+            //        }
+
+            //        for (int j = 3; j < 6; j++)
+            //        {
+            //            parts2.Add(variables[j]);
+            //        }
+
+            //        for (int j = 6; j < 9; j++)
+            //        {
+            //            parts3.Add(variables[j]);
+            //        }
+            //    }
+
+
+            //    IEnumerable<string> duplicates = parts1.GroupBy(x => x)
+            //        .Where(g => g.Count() > 1)
+            //        .Select(x => x.Key);
+            //    Console.WriteLine(duplicates);
+            //}
+
+            //foreach (var part in parts1)
+            //{
+            //    Console.WriteLine(part);
+
+
+            //    Console.WriteLine(repeat);
+
+            //}
+
+
+            int n = 15;
+            for (int i = 1; i <= n; i++)
+            {
+                if (i % 3 == 0 && i % 5 == 0)
+                {
+                    Console.WriteLine("FizzBuzz");
+                }
+                if (i % 3 == 0 && i % 5 != 0)
+                {
+                    Console.WriteLine("Fizz");
+                }
+                if (i % 3 != 0 && i % 5 == 0)
+                {
+                    Console.WriteLine("Buzz");
+                }
+                if (i % 3 != 0 && i % 5 != 0)
+                {
+                    Console.WriteLine(i);
+                }
+
+            }
+
+
+        }
+
+        private static void PrimeNumber()
+        {
+            int prime = 2;
+
+            bool success = true;
+            //2 konrol edilecek sonra
+
+            for (int i = 2; i < prime; i++)
+            {
+                if (prime % i == 0)
+                {
+                    success = false;
+                }
+            }
+
+            if (prime == 2)
+            {
+                success = true;
+            }
+
+            if (success)
+            {
+                Console.WriteLine("Sayi asaldır.");
+            }
+            else
+            {
+                Console.WriteLine("Sayı asal değildir.");
+            }
+        }
+
+        private static void Consonant()
+        {
+            string input = "Hello World";
+
+            string character = "a,e,i,o,u";
+
+            input = input.ToLower().Replace(" ", string.Empty);
+            int result = 0;
+
+            foreach (var consonant in input)
+            {
+                foreach (var char1 in character)
+                {
+                    if (consonant == char1)
+                    {
+                        result += 1;
+                    }
+                }
+            }
+
+            Console.WriteLine(input.Length - result);
         }
 
         private static void Pangrams()
