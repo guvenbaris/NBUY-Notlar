@@ -103,8 +103,6 @@ namespace _1HackerRankAnswers
             //    Console.WriteLine(repeat);
 
             //}
-
-
             int n = 15;
             for (int i = 1; i <= n; i++)
             {
@@ -126,8 +124,6 @@ namespace _1HackerRankAnswers
                 }
 
             }
-
-
         }
 
         private static void PrimeNumber()
