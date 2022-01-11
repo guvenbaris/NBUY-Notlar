@@ -20,9 +20,6 @@ namespace MVC_School.Controllers
             Surname = "ÇAKAN"
         };
 
-        
-
-
         // GET: Student listesini yazdırsın. Yanlarında Düzenleme,Silme bağlantıları ile birlikte.
         public ActionResult Index()
         {
