@@ -87,9 +87,9 @@ namespace OgretmenProject.DataAccess
             command.Parameters.AddWithValue("@id", ogretmen.OgretmenID);
             DbConnection();
             if (command.ExecuteNonQuery() > 0)
-            {
-                DbDisconnection();
+            { DbDisconnection();
                 Console.WriteLine("Ogretmen deleted!");
+               
                 return true;
             }
             DbDisconnection();

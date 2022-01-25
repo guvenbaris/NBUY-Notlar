@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomProject.ORM", "Custom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomProject.View2", "CustomProject.View2\CustomProject.View2.csproj", "{3A9BB938-584D-44F1-98DD-5514B6DDF396}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionsWithParams", "MyAnswers\ExtensionsWithParams.csproj", "{1EF223C6-BD36-4055-8BFA-02CCCCB46DFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -149,6 +151,10 @@ Global
 		{3A9BB938-584D-44F1-98DD-5514B6DDF396}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A9BB938-584D-44F1-98DD-5514B6DDF396}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A9BB938-584D-44F1-98DD-5514B6DDF396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EF223C6-BD36-4055-8BFA-02CCCCB46DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF223C6-BD36-4055-8BFA-02CCCCB46DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF223C6-BD36-4055-8BFA-02CCCCB46DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF223C6-BD36-4055-8BFA-02CCCCB46DFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

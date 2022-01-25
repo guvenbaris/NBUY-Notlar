@@ -2,7 +2,9 @@
 using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -35,96 +37,62 @@ namespace _1HackerRankAnswers
             //PrimeNumber();
 
 
-            //string[] inputs = new string[]
-            //{
-            //    "(1,2,3,4,5,6,7,8,1)", "(x,x,x,x,x,x,x,x,x)", "(1,x,x,x,x,x,x,x,x)", "(1,x,x,x,x,x,x,x,x)",
-            //    "(x,x,x,x,x,x,x,x,x)", "(x,x,x,x,x,x,x,x,x)", "(x,x,x,x,x,x,x,x,x)", "(x,x,x,x,x,x,x,x,x)",
-            //    "(x,x,x,x,x,x,x,x,x)"
-            //};
-            //string[] variables = new string[9];
-            //List<string> parts1 = new List<string>();
-            //List<string> parts2 = new List<string>();
-            //List<string> parts3 = new List<string>();
-            //int sayi = 0;
-
-            //string regular = "";
-            //int repeat = 0;
-            //for (int i = 0; i < inputs.Length; i++)
-            //{
-
-            //    regular = inputs[i].Replace("(", String.Empty);
-            //    regular = regular.Replace(")", String.Empty);
-
-            //    variables = regular.Split(',');
-
-
-            //    //Döngüde tekrar edenleri bul x boş olma durumuna bak
-            //    foreach (var x in variables)
-            //    {
-            //        foreach (var y in variables)
-            //        {
-            //            if (x == y)
-            //            {
-            //                repeat = i;
-            //            }
-            //        }
-            //    }
-
-            //    if (i < 3)
-            //    {
-            //        for (int j = 0; j < 3; j++)
-            //        {
-            //            parts1.Add(variables[j]);
-            //        }
-
-            //        for (int j = 3; j < 6; j++)
-            //        {
-            //            parts2.Add(variables[j]);
-            //        }
-
-            //        for (int j = 6; j < 9; j++)
-            //        {
-            //            parts3.Add(variables[j]);
-            //        }
-            //    }
-
-
-            //    IEnumerable<string> duplicates = parts1.GroupBy(x => x)
-            //        .Where(g => g.Count() > 1)
-            //        .Select(x => x.Key);
-            //    Console.WriteLine(duplicates);
-            //}
-
-            //foreach (var part in parts1)
-            //{
-            //    Console.WriteLine(part);
-
-
-            //    Console.WriteLine(repeat);
-
-            //}
-            int n = 15;
-            for (int i = 1; i <= n; i++)
+            bool isValid = true;
+            bool isType = true;
+            string choose = "";
+            float hour = 0.0f;
+            List<string> chooseList = new List<string>
             {
-                if (i % 3 == 0 && i % 5 == 0)
+                "1", "2", "3", "4"
+
+            };
+
+            //while (isValid)
+            //{
+            //    Console.WriteLine("Araç tipini seçiniz...");
+            //    Console.WriteLine("Otomobil için 1’e basın");
+            //    Console.WriteLine("Motosiklet için 2’ye basın");
+            //    Console.WriteLine(" Minibüs için 3’e basın");
+            //    Console.WriteLine("Kamyon (ve diğer ticari araçlar) için 4’e basın");
+
+
+            //    choose = Console.ReadLine();
+
+            //    foreach (var ch in chooseList)
+            //    {
+            //        if (ch == choose)
+            //        {
+            //            isValid = false;
+            //        }
+            //    }
+            //}
+
+
+            while(isType)
+            {
+                Console.Write("Araç kaç saat boyunca park alanında kaldı ?  : ");
+                var degisken =  Console.ReadLine();
+
+                var conditionInt =  Int32.TryParse(degisken, out _);
+                var conditionFLoat =  float.TryParse(degisken, out _);
+
+                if (conditionInt == false && conditionFLoat == true)
                 {
-                    Console.WriteLine("FizzBuzz");
-                }
-                if (i % 3 == 0 && i % 5 != 0)
-                {
-                    Console.WriteLine("Fizz");
-                }
-                if (i % 3 != 0 && i % 5 == 0)
-                {
-                    Console.WriteLine("Buzz");
-                }
-                if (i % 3 != 0 && i % 5 != 0)
-                {
-                    Console.WriteLine(i);
+                    hour = Convert.ToSingle(degisken);
+                    isType = false;
+                    break;
                 }
 
+                Console.WriteLine("Lütfen geçerli bir sayı yazınız!");
             }
+
+
+
+
+            Console.ReadLine();
+
         }
+
 
         private static void PrimeNumber()
         {
@@ -415,6 +383,28 @@ namespace _1HackerRankAnswers
             Console.WriteLine(positive / arr.Count);
             Console.WriteLine(negative / arr.Count);
             Console.WriteLine(zeros / arr.Count);
+        }
+    }
+
+
+
+    public static class MyExtensions
+    {
+        public static void IsValidPassword(this string str,params object[] logics)
+        {
+            ParameterInfo parameterInfo = typeof(MyExtensions).GetMethod("IsValidPassword").GetParameters()[1];
+
+            PropertyInfo[] pi = logics.GetType().GetProperties();
+            foreach (var property in pi)
+            {
+                Console.WriteLine(property.Name,property.GetValue(logics, null));
+            }
+
+            //str ve logics parametrelerini aldık bunun devamnına bakacağız...
+
+
+
+
         }
     }
 }
