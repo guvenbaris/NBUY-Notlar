@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStoreApp", "BookStoreApp\BookStoreApp.csproj", "{FBF2A834-56A9-4ABF-A9E1-352A79CD8BD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStoreApp", "BookStoreApp\BookStoreApp.csproj", "{FBF2A834-56A9-4ABF-A9E1-352A79CD8BD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Middleware", "Middleware\Middleware.csproj", "{CAD11383-D038-4D03-B639-6D42CB0696E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vidly", "Vidly\Vidly.csproj", "{797390E8-8F06-4B9A-8743-FC944E53252C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{FBF2A834-56A9-4ABF-A9E1-352A79CD8BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBF2A834-56A9-4ABF-A9E1-352A79CD8BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBF2A834-56A9-4ABF-A9E1-352A79CD8BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD11383-D038-4D03-B639-6D42CB0696E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD11383-D038-4D03-B639-6D42CB0696E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD11383-D038-4D03-B639-6D42CB0696E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD11383-D038-4D03-B639-6D42CB0696E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{797390E8-8F06-4B9A-8743-FC944E53252C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797390E8-8F06-4B9A-8743-FC944E53252C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797390E8-8F06-4B9A-8743-FC944E53252C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797390E8-8F06-4B9A-8743-FC944E53252C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

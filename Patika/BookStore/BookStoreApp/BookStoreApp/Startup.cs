@@ -1,15 +1,15 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+using BookStoreApp.DbOperations;
+using BookStoreApp.Middlewares;
+using BookStoreApp.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace BookStoreApp
 {
@@ -31,6 +31,12 @@ namespace BookStoreApp
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "BookStoreApp", Version = "v1" });
             });
+            services.AddDbContext<BookStoreDbContext>(options =>
+                options.UseInMemoryDatabase(databaseName: "BookStoreDB"));
+
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            services.AddSingleton<ILoggerService, ConsoleLogger>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,10 +48,12 @@ namespace BookStoreApp
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "BookStoreApp v1"));
             }
-
             app.UseRouting();
 
+            app.UseCustomeExceptionMiddle(); // kendi yazdýðýmýz middleware
+
             app.UseAuthorization();
+
 
             app.UseEndpoints(endpoints =>
             {

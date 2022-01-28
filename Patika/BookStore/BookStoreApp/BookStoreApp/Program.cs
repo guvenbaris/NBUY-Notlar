@@ -6,6 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BookStoreApp.DbOperations;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace BookStoreApp
 {
@@ -13,7 +16,14 @@ namespace BookStoreApp
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            var host = CreateHostBuilder(args).Build();
+            using (var scope = host.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                DataGenerator.Initialize(services);
+            }
+            host.Run();
+            
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

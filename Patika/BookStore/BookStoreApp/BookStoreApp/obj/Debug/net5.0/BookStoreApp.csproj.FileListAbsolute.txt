@@ -27,3 +27,16 @@ C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\ob
 C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\obj\Debug\net5.0\ref\BookStoreApp.dll
 C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\obj\Debug\net5.0\BookStoreApp.pdb
 C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\obj\Debug\net5.0\BookStoreApp.genruntimeconfig.cache
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\Barış\Desktop\Ünlü&Co Patika\BookStore\BookStoreApp\BookStoreApp\bin\Debug\net5.0\Newtonsoft.Json.dll
