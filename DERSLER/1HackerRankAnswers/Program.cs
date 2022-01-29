@@ -37,15 +37,15 @@ namespace _1HackerRankAnswers
             //PrimeNumber();
 
 
-            bool isValid = true;
-            bool isType = true;
-            string choose = "";
-            float hour = 0.0f;
-            List<string> chooseList = new List<string>
-            {
-                "1", "2", "3", "4"
+            //bool isValid = true;
+            //bool isType = true;
+            //string choose = "";
+            //float hour = 0.0f;
+            //List<string> chooseList = new List<string>
+            //{
+            //    "1", "2", "3", "4"
 
-            };
+            //};
 
             //while (isValid)
             //{
@@ -68,33 +68,75 @@ namespace _1HackerRankAnswers
             //}
 
 
-            while(isType)
-            {
-                Console.Write("Araç kaç saat boyunca park alanında kaldı ?  : ");
-                var degisken =  Console.ReadLine();
+            //while(isType)
+            //{
+            //    Console.Write("Araç kaç saat boyunca park alanında kaldı ?  : ");
+            //    var degisken =  Console.ReadLine();
 
-                var conditionInt =  Int32.TryParse(degisken, out _);
-                var conditionFLoat =  float.TryParse(degisken, out _);
+            //    var conditionInt =  Int32.TryParse(degisken, out _);
+            //    var conditionFLoat =  float.TryParse(degisken, out _);
 
-                if (conditionInt == false && conditionFLoat == true)
-                {
-                    hour = Convert.ToSingle(degisken);
-                    isType = false;
-                    break;
-                }
+            //    if (conditionInt == false && conditionFLoat == true)
+            //    {
+            //        hour = Convert.ToSingle(degisken);
+            //        isType = false;
+            //        break;
+            //    }
 
-                Console.WriteLine("Lütfen geçerli bir sayı yazınız!");
-            }
+            //    Console.WriteLine("Lütfen geçerli bir sayı yazınız!");
+            //}
 
+            //Console.ReadLine();
 
-
-
-            Console.ReadLine();
+            Console.WriteLine(StringChallenge("12:30pm-12:00am"));
 
         }
 
 
-        private static void PrimeNumber()
+
+        public static string StringChallenge(string str)
+        {
+
+            string[] times = str.Split('-');
+            string fromTime = times[0];
+            string toTime = times[1];
+
+            int fromMinutes = FindTotalMinutes(fromTime);
+            int toMinutes = FindTotalMinutes(toTime);
+
+            if (toMinutes < fromMinutes)
+            {
+                toMinutes += 1440;
+            }
+
+
+            int totalDifference = toMinutes - fromMinutes;
+            string result = totalDifference.ToString();
+            return result;
+
+        }
+
+        private static int FindTotalMinutes(string time)
+        {
+            string[] hourAndMinute = time.Split(':');
+            int hour = Int32.Parse(hourAndMinute[0]);
+            int minute = Int32.Parse(hourAndMinute[1].Substring(0, 2));
+            string amOrPm = hourAndMinute[1].Substring(2, 2);
+
+            int totalMinute = minute;
+
+            if (amOrPm == "am")
+            {
+                totalMinute = hour * 60 + minute;
+            }
+
+            return totalMinute;
+        }
+
+
+
+
+    private static void PrimeNumber()
         {
             int prime = 2;
 
