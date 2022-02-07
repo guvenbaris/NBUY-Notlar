@@ -88,7 +88,9 @@ namespace _1HackerRankAnswers
 
             //Console.ReadLine();
 
-            Console.WriteLine(StringChallenge("12:30pm-12:00am"));
+            //Console.WriteLine(StringChallenge("12:30pm-12:00am"));
+
+
 
         }
 
