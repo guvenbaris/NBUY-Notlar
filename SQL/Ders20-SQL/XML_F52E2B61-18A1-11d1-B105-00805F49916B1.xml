@@ -1,0 +1,40 @@
+﻿<XML>
+  <CategoryID>1</CategoryID>
+  <CategoryName>Beverages</CategoryName>
+  <Description>Soft drinks, coffees, teas, beers, and ales</Description>
+</XML>
+<XML>
+  <CategoryID>2</CategoryID>
+  <CategoryName>Condiments</CategoryName>
+  <Description>Sweet and savory sauces, relishes, spreads, and seasonings</Description>
+</XML>
+<XML>
+  <CategoryID>3</CategoryID>
+  <CategoryName>Confections</CategoryName>
+  <Description>Desserts, candies, and sweet breads</Description>
+</XML>
+<XML>
+  <CategoryID>4</CategoryID>
+  <CategoryName>Dairy Products</CategoryName>
+  <Description>Cheeses</Description>
+</XML>
+<XML>
+  <CategoryID>5</CategoryID>
+  <CategoryName>Grains/Cereals</CategoryName>
+  <Description>Breads, crackers, pasta, and cereal</Description>
+</XML>
+<XML>
+  <CategoryID>6</CategoryID>
+  <CategoryName>Meat/Poultry</CategoryName>
+  <Description>Prepared meats</Description>
+</XML>
+<XML>
+  <CategoryID>7</CategoryID>
+  <CategoryName>Produce</CategoryName>
+  <Description>Dried fruit and bean curd</Description>
+</XML>
+<XML>
+  <CategoryID>8</CategoryID>
+  <CategoryName>Seafood</CategoryName>
+  <Description>Seaweed and fish</Description>
+</XML>
