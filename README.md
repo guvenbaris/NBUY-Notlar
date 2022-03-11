@@ -22,4 +22,3 @@ Normalizasyon kurallarına göre ilişkisel veritabanı tasarlama
 * Ado.Net ve Entity framework eğitimi
 * Asp.Net MVC ile web programlama eğitimi
 * Asp.Net Core MVC ile web programlama eğitimi
-
