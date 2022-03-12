@@ -2,13 +2,13 @@
 Niteklikli bilişim uzmanı yetiştirme programı süresince derste işlemiş 
 olduğumuz konulara dair notları paylaştığım repository'dir.
 
-**Eğitim İçeriği**
+## Eğitim İçeriği
 
-*C# Programlama Eğitimi*
+### C# Programlama Eğitimi
 *  C# Temel programlama eğitimi
 *  Nesne yönelimli programlama (Kalıtım,Kapsülleme,Çok Biçimlilik,Soyutlama)
 
-*MSSQL Veritabanı Eğitimi*
+### MSSQL Veritabanı Eğitimi
 
 Normalizasyon kurallarına göre ilişkisel veritabanı tasarlama
 * View
@@ -16,7 +16,7 @@ Normalizasyon kurallarına göre ilişkisel veritabanı tasarlama
 * Trigger
 * Index
 
-*Web Tasarım Eğitimi*
+### Web Tasarım Eğitimi
 
 * Html5,Css3,Javascript,Bootstrap
 * Ado.Net ve Entity framework eğitimi
