@@ -18,7 +18,7 @@ Normalizasyon kurallarına göre ilişkisel veritabanı tasarlama
 
 ### Web Tasarım Eğitimi
 
-* Html5,Css3,Javascript,Bootstrap
-* Ado.Net ve Entity framework eğitimi
+* Html5, Css3, Javascript, Bootstrap
+* Ado.Net ve Entity Framework eğitimi
 * Asp.Net MVC ile web programlama eğitimi
 * Asp.Net Core MVC ile web programlama eğitimi
